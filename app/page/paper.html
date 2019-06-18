@@ -1,0 +1,95 @@
+<div>
+	<div id="mySidenav" class="sidenav" style="margin-top: 97px;">
+	  	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	  	<div class="container" ng-controller="QuestionFilterController">
+	  		<div class="" style="margin-top: -80px; margin-left:140px; size:40px;">
+			  <label>Close</label>
+			</div>
+	
+
+
+	  		<div class="radio">
+
+			  <label><input type="radio" name="filterRadio" value="ua" ng-model="filterValue" ng-change="filterChange('ua') ">Unanswered</label>
+			</div>
+			<div class="radio">
+			  <label><input type="radio" name="filterRadio" value="a" ng-model="filterValue" ng-change="filterChange('a')">Answered</label>
+			</div>
+			<div class="radio">
+			  <label><input type="radio" name="filterRadio" value="all" ng-model="filterValue" ng-change="filterChange('all')">All</label>
+			</div>
+
+		</div>
+	  	<div class="container list-inline" ng-controller="QuestionLinkController">
+	  	<label style="margin-left:70px; ">Questions</label>
+			<div ng-repeat="ques in questions">
+				<a ng-click="setIndex(ques.serial) " style=" font-size: 15px; display:inline; color:white; margin-left:70px;" >{{ques.serial}} </a>
+			</div>
+		
+		</div>
+	</div>
+	<div class="container" ng-controller="TimeOutController">
+		<div class="row" style="background-color: #00ccff;">
+			<span class="col-md-2 text-left" onclick="openNav()" style="cursor:pointer;font-size:20px;">&#9776; Guide</span>
+			<span class="text-center col-md-7" style="font-size:80px;">{{name}}</span>
+			<span class="col-md-3 text-center" style="font-size:20px;">Time Remaining: <br>{{time.hours}}:{{time.minutes}}:{{time.seconds}} </span>		
+		</div>
+	</div>
+	<div id="main">
+  		<div class="container" ng-controller="QuestionListController">
+			<div ng-if="mcqBool">
+				<div class="row">
+					<div class="" style="margin:-30px; margin-left:-5px;">
+
+						<p style="text-align:left;">
+						Q{{questions[index].serial}}.
+					
+						{{questions[index].question}}
+
+
+						<span style="float:right;margin-right:300px">Marks: {{questions[index].marks}}</span>
+						</p>
+
+						      
+					</div>
+				</div>
+				<div class="row">
+					<div class="">
+							
+						<div ng-repeat="option in questions[index].options">
+							<div class="radio">
+							  <label><input type="radio" name="quesRadio" value={{option.id}} ng-model="selectValue" ng-change="selectChange(option.id)">{{option.value}}</label>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- <mcq-view
+					serial = 'questions[index].serial',
+					question = 'questions[index].question',
+					marks = 'questions[index].marks',
+					options = 'questions[index].options',
+					selected-value = 'selectValue',
+					select-change = 'selectChange(val)'
+				></mcq-view> -->
+			</div>
+			<div ng-if="mmcqBool">
+				<mmcq-view></mmcq-view>
+			</div>
+			<div class="row">
+				<div class="text-center ">
+					<ul class="pager">
+						<li class="previous"><a ng-click="previousIndex()">Previous</a></li>
+						<li class="next"><a ng-click="nextIndex()">Next</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="container" ng-controller="SubmitController">
+				<div class="row" >
+					<div class="text-center col-md-4 col-md-offset-4">
+						<button type="button" class="btn btn-info" ng-click="submit()">Submit Paper</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

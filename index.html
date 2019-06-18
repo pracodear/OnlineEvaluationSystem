@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Online Examination System</title>
+	<link rel="stylesheet" type="text/css" href="lib/bootstrap/dist/css/bootstrap.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<script type="text/javascript" src="lib/jquery/dist/jquery.js"></script>
+	<script type="text/javascript" src="lib/bootstrap/dist/js/bootstrap.js"></script>
+	<script type="text/javascript" src="lib/angular/angular.js"></script>
+	<script type="text/javascript" src="lib/angular-route/angular-route.js"></script>
+	<script type="text/javascript" src="lib/angular-cookies/angular-cookies.js"></script>
+	<script type="text/javascript" src="lib/ng-file-upload/ng-file-upload.min.js"></script>
+	<script type="text/javascript" src="lib/ng-file-upload/ng-file-upload-shim.min.js"></script>
+	<script src="node_modules/chart.js/dist/Chart.min.js"></script>
+	<script src="node_modules/angular-chart.js/dist/angular-chart.min.js"></script>
+
+	<meta charset="utf-8" name="viewport" content="width=device-width">
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/paper.style.css">
+	<link rel="stylesheet" type="text/css" href="css/index.style.css">
+	<link rel="stylesheet" type="text/css" href="css/user.style.css">
+	<script type="text/javascript" src="js/login.js"></script>
+	<script type="text/javascript" src="js/paper.js"></script>
+	<script type="text/javascript" src="js/user.js"></script>
+
+	<script type="text/javascript" src="app/config/main.cfg.js"></script>
+	<script type="text/javascript" src="app/service/authenticate.srv.js"></script>
+	<script type="text/javascript" src="app/service/admin.srv.js"></script>
+	<script type="text/javascript" src="app/service/user.srv.js"></script>
+	<script type="text/javascript" src="app/controller/paper.ctrl.js"></script>
+	<script type="text/javascript" src="app/controller/user.ctrl.js"></script>
+	<script type="text/javascript" src="app/controller/admin.ctrl.js"></script>
+	<script type="text/javascript" src="app/directive/directives.drv.js"></script>
+	<script type="text/javascript" src="app/directive/mcq.drv.js"></script>
+	<script type="text/javascript" src="app/directive/mmcq.drv.js"></script>
+	<script type="text/javascript" src="app/directive/card.drv.js"></script>
+
+	<link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/foundation/6.0.1/css/foundation.css">
+	<script src = "https://cdnjs.cloudflare.com/ajax/libs/foundation/6.0.1/js/vendor/jquery.min.js"></script>
+	<script src = "https://cdnjs.cloudflare.com/ajax/libs/foundation/6.0.1/js/foundation.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.6/Chart.bundle.min.js"></script>
+
+</head>
+<body ng-app = "main_module">
+
+	<div class = "panel" ng-controller = "IndexController">
+		<div class="row">
+		<div class = "col-lg-7 col-md-8">
+			<h1>Online Examination System</h1>  
+		</div>
+		<div class="col-lg-5 col-md-4">
+			<div ng-if = "logged_in" class="logged_in_user">
+				Welcome {{user}} !<br> 
+				<p>
+			        <button type="button" class="btn btn-default btn-sm" ng-click="logout()">
+			          <span class="glyphicon glyphicon-log-out"></span> Log Out
+			        </button>
+			     </p>
+			</div>
+			
+		</div>
+			 
+		</div>   
+	</div>
+	<div class="container-fluid">
+		<div ng-view></div> 
+	</div>
+</body>
+</html>

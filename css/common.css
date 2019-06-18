@@ -1,0 +1,51 @@
+.scrolltable table {
+        width: 100%;
+    }
+
+.scrolltable thead, .scrolltable body, .scrolltable tr, .scrolltable td, .scrolltable th { 
+    display: block; 
+}
+
+.scrolltable tr:after {
+    content: ' ';
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+
+.scrolltable thead th {
+    height: 30px;
+}
+
+.scrolltable tbody {
+    height: 120px;
+    overflow-y: auto;
+}
+
+.scrolltable thead {
+    /* fallback */
+}
+
+
+.manage_question_sets .scrolltable tbody td, .manage_question_sets .scrolltable thead th {
+    width: 33%;
+    float: left;
+}
+
+.manage_users .scrolltable tbody td, .manage_users .scrolltable thead th {
+    width: 25%;
+    float: left;
+}
+
+.success_message {
+    color: green;
+}
+
+.error_message {
+    color: red;
+}
+
+.panel{
+    background-color: #1E90FF;
+    
+}

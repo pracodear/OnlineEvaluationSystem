@@ -1,0 +1,68 @@
+<div class="user">
+	<div class="container" ng-controller="UpcomingAssessmentController">
+		<h3>Upcoming Assessments</h3>
+		<div ng-if="upa">
+			<div class = "error"> You have no Upcoming Assessments. </div>
+		</div>
+		<div ng-if="!upa">
+			<div class="row">
+				<div class="col-md-4 col-lg-3 card" ng-repeat="test in upcoming_assessments">
+					<card-view
+						name = 'test.name'
+						date = 'test.dateString',
+						duration = 'test.duration'
+						open-assessment = 'openAssessment(test)'>
+					</card-view>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container" ng-controller="TakenAssessmentController">
+		<h3>Taken Assessments</h3>
+		<div ng-if="taa">
+			<div class = "error"> You have not taken any Assessments. </div>
+		</div>
+		<div ng-if="!taa">
+			<table border="1" id="myTable">
+				<tr>
+					<th ng-click="sortTable(0)">Name</th>
+					<th ng-click="sortTable(1)">Date</th>
+					<th>View Results</th>
+				</tr>
+				<tr ng-repeat="test in taken_assessments">
+					<td>{{test.name}}</td>
+					<td>{{test.date}}</td>
+					<td>
+						<a ng-click="viewReport(test)">View Report</a>
+					</td>
+
+				</tr>
+			</table>
+		</div>
+		
+		<div class="user_report">
+			<div id="myModal" class="modal">
+				<div class="modal-content">
+					<div class="modal-header">
+						<span class="close" ng-click="closeReport()">&times;</span>
+						<h2>{{report.name}}</h2>
+					</div>
+					<div class="modal-body">
+						<table border="1" id="myTable">
+							<tr>
+								<th>No.</th>
+								<th>Question</th>
+								<th>Marks Obtained</th>
+							</tr>
+							<tr ng-repeat="question in report.questions">
+								<td>{{question.serial}}</td>
+								<td>{{question.question}}</td>
+								<td>{{question.marks}}</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

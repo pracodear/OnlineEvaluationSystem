@@ -1,0 +1,24 @@
+<div class = "container" id='content' ng-controller = "AdminMainController"> 
+  <div class="btn-group btn-group-justified" role="group" aria-label="...">
+    <div class="btn-group" role="group">
+      <button type="button" class="btn btn-default" ng-click="fun1()">Upload Questions</button>
+    </div>
+    <div class="btn-group" role="group">
+      <button type="button" class="btn btn-default" ng-click="fun2()">Examination Report</button>
+    </div>
+    <div class="btn-group" role="group">
+      <button type="button" class="btn btn-default" ng-click="fun3()">Schedule Exam</button>
+    </div>
+    <div class="btn-group" role="group">
+      <button type="button" class="btn btn-default" ng-click="fun4()">Manage Users</button>
+    </div>
+    <div class="btn-group" role="group">
+      <button type="button" class="btn btn-default" ng-click="fun5()">Manage Question Sets</button>
+    </div>
+  </div>
+  <div ng-if="tab1" ng-include="'app/page/upload_que_paper.html'"></div>
+  <div ng-if="tab2" ng-include="'app/page/examination_report.html'"></div> 
+  <div ng-if="tab3" ng-include="'app/page/schedule_exam.html'"></div>
+  <div ng-if="tab4" ng-include="'app/page/manage_users.html'"></div>
+  <div ng-if="tab5" ng-include="'app/page/manage_question_sets.html'"></div>
+</div>

@@ -1,0 +1,1443 @@
+{
+  "users": [
+    {
+      "firstName": "Kaustubh",
+      "lastName": "Vats",
+      "id": "kvats",
+      "password": "test@456",
+      "email": "kvats@adobe.com",
+      "type": "admin"
+    },
+    {
+      "id": "saksgupt",
+      "firstName": "Sakshi",
+      "lastName": "Gupta",
+      "password": "1234",
+      "email": "xyz@abc",
+      "type": "other",
+      "registered_tests": []
+    },
+    {
+      "id": "prmehrot",
+      "firstName": "Prakhar",
+      "lastName": "Mehrotra",
+      "password": "890",
+      "email": "yy@abc.com",
+      "type": "other",
+      "registered_tests": [
+        "exam6-1501671273510"
+      ]
+    },
+    {
+      "id": "gjain",
+      "firstName": "gaurav",
+      "lastName": "jain",
+      "password": "qwerty",
+      "email": "gjain@adobe.com",
+      "type": "admin"
+    }
+  ],
+  "question-sets": [
+    {
+      "author": "kvats",
+      "name": "set2",
+      "questions": [
+        {
+          "type": "MCQ",
+          "question": "The moment of inertia of a body does not depend upon it's ",
+          "options": [
+            {
+              "id": 1,
+              "value": "axis of rotation"
+            },
+            {
+              "id": 2,
+              "value": "angular velocity"
+            },
+            {
+              "id": 3,
+              "value": "form of mass"
+            },
+            {
+              "id": 4,
+              "value": "position of axis of rotation"
+            }
+          ],
+          "answer": 2,
+          "marks": 3,
+          "subject": "Science"
+        },
+        {
+          "type": "MCQ",
+          "question": "Which of the following are tennis players?",
+          "options": [
+            {
+              "id": 1,
+              "value": "Federer"
+            },
+            {
+              "id": 2,
+              "value": "Sachin"
+            },
+            {
+              "id": 3,
+              "value": "Ronaldo"
+            },
+            {
+              "id": 4,
+              "value": "Dhyanchand"
+            }
+          ],
+          "answer": 1,
+          "marks": 1,
+          "subject": "Sports"
+        },
+        {
+          "type": "MCQ",
+          "question": "What was the time period of Indus Civilization / Harappan Civilization ?",
+          "options": [
+            {
+              "id": 1,
+              "value": "2400 BC - 1700 BC"
+            },
+            {
+              "id": 2,
+              "value": " 2400 BC - 1750 BC"
+            },
+            {
+              "id": 3,
+              "value": " 2500 BC - 1700 BC"
+            },
+            {
+              "id": 4,
+              "value": " 2500 BC - 1750 BC"
+            }
+          ],
+          "answer": 4,
+          "marks": 4,
+          "subject": "History"
+        },
+        {
+          "type": "MCQ",
+          "question": "Who has won the 2016 Women’s Singles Wimbledon Championship?",
+          "options": [
+            {
+              "id": 1,
+              "value": "Halep"
+            },
+            {
+              "id": 2,
+              "value": " Williams"
+            },
+            {
+              "id": 3,
+              "value": " Kerber"
+            },
+            {
+              "id": 4,
+              "value": " Kvitova"
+            }
+          ],
+          "answer": 1,
+          "marks": 2,
+          "subject": "Sports"
+        },
+        {
+          "type": "MCQ",
+          "question": "Which of the following is not associated with the UNO?",
+          "options": [
+            {
+              "id": 1,
+              "value": "ASEAN"
+            },
+            {
+              "id": 2,
+              "value": "ILO"
+            },
+            {
+              "id": 3,
+              "value": "WHO"
+            },
+            {
+              "id": 4,
+              "value": "UNICEF"
+            }
+          ],
+          "answer": 1,
+          "marks": 3,
+          "subject": "GK"
+        }
+      ],
+      "id": "kvats-set2"
+    },
+    {
+      "author": "kvats",
+      "name": "set3",
+      "questions": [
+        {
+          "type": "MCQ",
+          "question": "Genoa is leading seaport of:",
+          "options": [
+            {
+              "id": 1,
+              "value": "Italy"
+            },
+            {
+              "id": 2,
+              "value": "Brazil"
+            },
+            {
+              "id": 3,
+              "value": "Portugal"
+            },
+            {
+              "id": 4,
+              "value": "Malaysia"
+            }
+          ],
+          "answer": 1,
+          "marks": 1,
+          "subject": "GK"
+        },
+        {
+          "type": "MCQ",
+          "question": "Which of these states are not in India?",
+          "options": [
+            {
+              "id": 1,
+              "value": "Bhutan"
+            },
+            {
+              "id": 2,
+              "value": "Sikkim"
+            },
+            {
+              "id": 3,
+              "value": "Nagaland"
+            },
+            {
+              "id": 4,
+              "value": "UttarPradesh"
+            }
+          ],
+          "answer": 4,
+          "marks": 2,
+          "subject": "Geography"
+        },
+        {
+          "type": "MCQ",
+          "question": "Which of the following phenomenon is considered responsible for Global Warming?",
+          "options": [
+            {
+              "id": 1,
+              "value": "Greenhouse effect"
+            },
+            {
+              "id": 2,
+              "value": " Fire in coal mines"
+            },
+            {
+              "id": 3,
+              "value": " Dry farming"
+            },
+            {
+              "id": 4,
+              "value": "Monsoon"
+            },
+            {
+              "id": 5,
+              "value": "Trade winds"
+            }
+          ],
+          "answer": 1,
+          "marks": 1,
+          "subject": "Science"
+        },
+        {
+          "type": "MCQ",
+          "question": "Carl Lewis won how many gold medals at the 1984 Olympic games?",
+          "options": [
+            {
+              "id": 1,
+              "value": "Two"
+            },
+            {
+              "id": 2,
+              "value": "There"
+            },
+            {
+              "id": 3,
+              "value": "Four"
+            },
+            {
+              "id": 4,
+              "value": "Eight"
+            }
+          ],
+          "answer": 3,
+          "marks": 3,
+          "subject": "Sports"
+        },
+        {
+          "type": "MCQ",
+          "question": "he reason behind decrease in the boiling point of water at higher altitudes is",
+          "options": [
+            {
+              "id": 1,
+              "value": "low temperature"
+            },
+            {
+              "id": 2,
+              "value": " high temperature"
+            },
+            {
+              "id": 3,
+              "value": " low atmospheric pressure"
+            },
+            {
+              "id": 4,
+              "value": " high atmospheric pressure"
+            }
+          ],
+          "answer": 3,
+          "marks": 4,
+          "subject": "Science"
+        },
+        {
+          "type": "MCQ",
+          "question": "Which of the following sites is famous for stupas, monasteries, temples and pillars ?",
+          "options": [
+            {
+              "id": 1,
+              "value": "Gooty"
+            },
+            {
+              "id": 2,
+              "value": "Hatta"
+            },
+            {
+              "id": 3,
+              "value": "Sanchi"
+            },
+            {
+              "id": 4,
+              "value": "Varanasi"
+            }
+          ],
+          "answer": 3,
+          "marks": 2,
+          "subject": "History"
+        }
+      ],
+      "id": "kvats-set3"
+    },
+    {
+      "author": "kvats",
+      "name": "set1",
+      "questions": [
+        {
+          "type": "MCQ",
+          "question": "Genoa is leading seaport of:",
+          "options": [
+            {
+              "id": 1,
+              "value": "Italy"
+            },
+            {
+              "id": 2,
+              "value": "Brazil"
+            },
+            {
+              "id": 3,
+              "value": "Portugal"
+            },
+            {
+              "id": 4,
+              "value": "Malaysia"
+            }
+          ],
+          "answer": 1,
+          "marks": 1,
+          "subject": "GK"
+        },
+        {
+          "type": "MCQ",
+          "question": "Which of these states are not in India?",
+          "options": [
+            {
+              "id": 1,
+              "value": "Bhutan"
+            },
+            {
+              "id": 2,
+              "value": "Sikkim"
+            },
+            {
+              "id": 3,
+              "value": "Nagaland"
+            },
+            {
+              "id": 4,
+              "value": "UttarPradesh"
+            }
+          ],
+          "answer": 4,
+          "marks": 2,
+          "subject": "Geography"
+        },
+        {
+          "type": "MCQ",
+          "question": "Which of the following phenomenon is considered responsible for Global Warming?",
+          "options": [
+            {
+              "id": 1,
+              "value": "Greenhouse effect"
+            },
+            {
+              "id": 2,
+              "value": " Fire in coal mines"
+            },
+            {
+              "id": 3,
+              "value": " Dry farming"
+            },
+            {
+              "id": 4,
+              "value": "Monsoon"
+            },
+            {
+              "id": 5,
+              "value": "Trade winds"
+            }
+          ],
+          "answer": 1,
+          "marks": 1,
+          "subject": "Science"
+        },
+        {
+          "type": "MCQ",
+          "question": "Carl Lewis won how many gold medals at the 1984 Olympic games?",
+          "options": [
+            {
+              "id": 1,
+              "value": "Two"
+            },
+            {
+              "id": 2,
+              "value": "There"
+            },
+            {
+              "id": 3,
+              "value": "Four"
+            },
+            {
+              "id": 4,
+              "value": "Eight"
+            }
+          ],
+          "answer": 3,
+          "marks": 3,
+          "subject": "Sports"
+        },
+        {
+          "type": "MCQ",
+          "question": "he reason behind decrease in the boiling point of water at higher altitudes is",
+          "options": [
+            {
+              "id": 1,
+              "value": "low temperature"
+            },
+            {
+              "id": 2,
+              "value": " high temperature"
+            },
+            {
+              "id": 3,
+              "value": " low atmospheric pressure"
+            },
+            {
+              "id": 4,
+              "value": " high atmospheric pressure"
+            }
+          ],
+          "answer": 3,
+          "marks": 4,
+          "subject": "Science"
+        },
+        {
+          "type": "MCQ",
+          "question": "Which of the following sites is famous for stupas, monasteries, temples and pillars ?",
+          "options": [
+            {
+              "id": 1,
+              "value": "Gooty"
+            },
+            {
+              "id": 2,
+              "value": "Hatta"
+            },
+            {
+              "id": 3,
+              "value": "Sanchi"
+            },
+            {
+              "id": 4,
+              "value": "Varanasi"
+            }
+          ],
+          "answer": 3,
+          "marks": 2,
+          "subject": "History"
+        }
+      ],
+      "id": "kvats-set1"
+    },
+    {
+      "author": "kvats",
+      "name": "set4",
+      "questions": [
+        {
+          "type": "MCQ",
+          "question": "The moment of inertia of a body does not depend upon it's ",
+          "options": [
+            {
+              "id": 1,
+              "value": "axis of rotation"
+            },
+            {
+              "id": 2,
+              "value": "angular velocity"
+            },
+            {
+              "id": 3,
+              "value": "form of mass"
+            },
+            {
+              "id": 4,
+              "value": "position of axis of rotation"
+            }
+          ],
+          "answer": 2,
+          "marks": 3,
+          "subject": "Science"
+        },
+        {
+          "type": "MCQ",
+          "question": "Which of the following are tennis players?",
+          "options": [
+            {
+              "id": 1,
+              "value": "Federer"
+            },
+            {
+              "id": 2,
+              "value": "Sachin"
+            },
+            {
+              "id": 3,
+              "value": "Ronaldo"
+            },
+            {
+              "id": 4,
+              "value": "Dhyanchand"
+            }
+          ],
+          "answer": 1,
+          "marks": 1,
+          "subject": "Sports"
+        },
+        {
+          "type": "MCQ",
+          "question": "What was the time period of Indus Civilization / Harappan Civilization ?",
+          "options": [
+            {
+              "id": 1,
+              "value": "2400 BC - 1700 BC"
+            },
+            {
+              "id": 2,
+              "value": " 2400 BC - 1750 BC"
+            },
+            {
+              "id": 3,
+              "value": " 2500 BC - 1700 BC"
+            },
+            {
+              "id": 4,
+              "value": " 2500 BC - 1750 BC"
+            }
+          ],
+          "answer": 4,
+          "marks": 4,
+          "subject": "History"
+        },
+        {
+          "type": "MCQ",
+          "question": "Who has won the 2016 Women’s Singles Wimbledon Championship?",
+          "options": [
+            {
+              "id": 1,
+              "value": "Halep"
+            },
+            {
+              "id": 2,
+              "value": " Williams"
+            },
+            {
+              "id": 3,
+              "value": " Kerber"
+            },
+            {
+              "id": 4,
+              "value": " Kvitova"
+            }
+          ],
+          "answer": 1,
+          "marks": 2,
+          "subject": "Sports"
+        },
+        {
+          "type": "MCQ",
+          "question": "Which of the following is not associated with the UNO?",
+          "options": [
+            {
+              "id": 1,
+              "value": "ASEAN"
+            },
+            {
+              "id": 2,
+              "value": "ILO"
+            },
+            {
+              "id": 3,
+              "value": "WHO"
+            },
+            {
+              "id": 4,
+              "value": "UNICEF"
+            }
+          ],
+          "answer": 1,
+          "marks": 3,
+          "subject": "GK"
+        }
+      ],
+      "id": "kvats-set4"
+    }
+  ],
+  "questions": [
+    {
+      "type": "MCQ",
+      "question": "Genoa is leading seaport of:",
+      "options": [
+        {
+          "id": 1,
+          "value": "Italy"
+        },
+        {
+          "id": 2,
+          "value": "Brazil"
+        },
+        {
+          "id": 3,
+          "value": "Portugal"
+        },
+        {
+          "id": 4,
+          "value": "Malaysia"
+        }
+      ],
+      "answer": 1,
+      "marks": 1,
+      "subject": "GK",
+      "id": 1
+    },
+    {
+      "type": "MCQ",
+      "question": "Which of these states are not in India?",
+      "options": [
+        {
+          "id": 1,
+          "value": "Bhutan"
+        },
+        {
+          "id": 2,
+          "value": "Sikkim"
+        },
+        {
+          "id": 3,
+          "value": "Nagaland"
+        },
+        {
+          "id": 4,
+          "value": "UttarPradesh"
+        }
+      ],
+      "answer": 4,
+      "marks": 2,
+      "subject": "Geography",
+      "id": 2
+    },
+    {
+      "type": "MCQ",
+      "question": "Which of the following phenomenon is considered responsible for Global Warming?",
+      "options": [
+        {
+          "id": 1,
+          "value": "Greenhouse effect"
+        },
+        {
+          "id": 2,
+          "value": " Fire in coal mines"
+        },
+        {
+          "id": 3,
+          "value": " Dry farming"
+        },
+        {
+          "id": 4,
+          "value": "Monsoon"
+        },
+        {
+          "id": 5,
+          "value": "Trade winds"
+        }
+      ],
+      "answer": 1,
+      "marks": 1,
+      "subject": "Science",
+      "id": 3
+    },
+    {
+      "type": "MCQ",
+      "question": "Carl Lewis won how many gold medals at the 1984 Olympic games?",
+      "options": [
+        {
+          "id": 1,
+          "value": "Two"
+        },
+        {
+          "id": 2,
+          "value": "There"
+        },
+        {
+          "id": 3,
+          "value": "Four"
+        },
+        {
+          "id": 4,
+          "value": "Eight"
+        }
+      ],
+      "answer": 3,
+      "marks": 3,
+      "subject": "Sports",
+      "id": 4
+    },
+    {
+      "type": "MCQ",
+      "question": "he reason behind decrease in the boiling point of water at higher altitudes is",
+      "options": [
+        {
+          "id": 1,
+          "value": "low temperature"
+        },
+        {
+          "id": 2,
+          "value": " high temperature"
+        },
+        {
+          "id": 3,
+          "value": " low atmospheric pressure"
+        },
+        {
+          "id": 4,
+          "value": " high atmospheric pressure"
+        }
+      ],
+      "answer": 3,
+      "marks": 4,
+      "subject": "Science",
+      "id": 5
+    },
+    {
+      "type": "MCQ",
+      "question": "Which of the following sites is famous for stupas, monasteries, temples and pillars ?",
+      "options": [
+        {
+          "id": 1,
+          "value": "Gooty"
+        },
+        {
+          "id": 2,
+          "value": "Hatta"
+        },
+        {
+          "id": 3,
+          "value": "Sanchi"
+        },
+        {
+          "id": 4,
+          "value": "Varanasi"
+        }
+      ],
+      "answer": 3,
+      "marks": 2,
+      "subject": "History",
+      "id": 6
+    }
+  ],
+  "exams": [
+    {
+      "id": "GK1-1501656607871",
+      "name": "GK1",
+      "date": "2017-08-01T18:30:00.000Z",
+      "timelimit": "1:9:08",
+      "questions": [
+        {
+          "type": "MCQ",
+          "question": "Carl Lewis won how many gold medals at the 1984 Olympic games?",
+          "options": [
+            {
+              "id": 1,
+              "value": "Two"
+            },
+            {
+              "id": 2,
+              "value": "There"
+            },
+            {
+              "id": 3,
+              "value": "Four"
+            },
+            {
+              "id": 4,
+              "value": "Eight"
+            }
+          ],
+          "answer": 3,
+          "marks": 3,
+          "subject": "Sports",
+          "id": 4
+        },
+        {
+          "type": "MCQ",
+          "question": "Genoa is leading seaport of:",
+          "options": [
+            {
+              "id": 1,
+              "value": "Italy"
+            },
+            {
+              "id": 2,
+              "value": "Brazil"
+            },
+            {
+              "id": 3,
+              "value": "Portugal"
+            },
+            {
+              "id": 4,
+              "value": "Malaysia"
+            }
+          ],
+          "answer": 1,
+          "marks": 1,
+          "subject": "GK",
+          "id": 1
+        },
+        {
+          "type": "MCQ",
+          "question": "Which of the following phenomenon is considered responsible for Global Warming?",
+          "options": [
+            {
+              "id": 1,
+              "value": "Greenhouse effect"
+            },
+            {
+              "id": 2,
+              "value": " Fire in coal mines"
+            },
+            {
+              "id": 3,
+              "value": " Dry farming"
+            },
+            {
+              "id": 4,
+              "value": "Monsoon"
+            },
+            {
+              "id": 5,
+              "value": "Trade winds"
+            }
+          ],
+          "answer": 1,
+          "marks": 1,
+          "subject": "Science",
+          "id": 3
+        },
+        {
+          "type": "MCQ",
+          "question": "Which of the following sites is famous for stupas, monasteries, temples and pillars ?",
+          "options": [
+            {
+              "id": 1,
+              "value": "Gooty"
+            },
+            {
+              "id": 2,
+              "value": "Hatta"
+            },
+            {
+              "id": 3,
+              "value": "Sanchi"
+            },
+            {
+              "id": 4,
+              "value": "Varanasi"
+            }
+          ],
+          "answer": 3,
+          "marks": 2,
+          "subject": "History",
+          "id": 6
+        },
+        {
+          "type": "MCQ",
+          "question": "Which of these states are not in India?",
+          "options": [
+            {
+              "id": 1,
+              "value": "Bhutan"
+            },
+            {
+              "id": 2,
+              "value": "Sikkim"
+            },
+            {
+              "id": 3,
+              "value": "Nagaland"
+            },
+            {
+              "id": 4,
+              "value": "UttarPradesh"
+            }
+          ],
+          "answer": 4,
+          "marks": 2,
+          "subject": "Geography",
+          "id": 2
+        },
+        {
+          "type": "MCQ",
+          "question": "he reason behind decrease in the boiling point of water at higher altitudes is",
+          "options": [
+            {
+              "id": 1,
+              "value": "low temperature"
+            },
+            {
+              "id": 2,
+              "value": " high temperature"
+            },
+            {
+              "id": 3,
+              "value": " low atmospheric pressure"
+            },
+            {
+              "id": 4,
+              "value": " high atmospheric pressure"
+            }
+          ],
+          "answer": 3,
+          "marks": 4,
+          "subject": "Science",
+          "id": 5
+        }
+      ],
+      "creator": "gjain",
+      "examinees": [
+        "prmehrot",
+        "saksgupt"
+      ]
+    },
+    {
+      "id": "exam6-1501671266521",
+      "name": "exam6",
+      "date": "2017-08-01T18:30:00.000Z",
+      "timelimit": "00:00:30",
+      "questions": [
+        {
+          "type": "MCQ",
+          "question": "The moment of inertia of a body does not depend upon it's ",
+          "options": [
+            {
+              "id": 1,
+              "value": "axis of rotation"
+            },
+            {
+              "id": 2,
+              "value": "angular velocity"
+            },
+            {
+              "id": 3,
+              "value": "form of mass"
+            },
+            {
+              "id": 4,
+              "value": "position of axis of rotation"
+            }
+          ],
+          "answer": 2,
+          "marks": 3,
+          "subject": "Science"
+        },
+        {
+          "type": "MCQ",
+          "question": "Which of the following are tennis players?",
+          "options": [
+            {
+              "id": 1,
+              "value": "Federer"
+            },
+            {
+              "id": 2,
+              "value": "Sachin"
+            },
+            {
+              "id": 3,
+              "value": "Ronaldo"
+            },
+            {
+              "id": 4,
+              "value": "Dhyanchand"
+            }
+          ],
+          "answer": 1,
+          "marks": 1,
+          "subject": "Sports"
+        },
+        {
+          "type": "MCQ",
+          "question": "What was the time period of Indus Civilization / Harappan Civilization ?",
+          "options": [
+            {
+              "id": 1,
+              "value": "2400 BC - 1700 BC"
+            },
+            {
+              "id": 2,
+              "value": " 2400 BC - 1750 BC"
+            },
+            {
+              "id": 3,
+              "value": " 2500 BC - 1700 BC"
+            },
+            {
+              "id": 4,
+              "value": " 2500 BC - 1750 BC"
+            }
+          ],
+          "answer": 4,
+          "marks": 4,
+          "subject": "History"
+        },
+        {
+          "type": "MCQ",
+          "question": "Who has won the 2016 Women’s Singles Wimbledon Championship?",
+          "options": [
+            {
+              "id": 1,
+              "value": "Halep"
+            },
+            {
+              "id": 2,
+              "value": " Williams"
+            },
+            {
+              "id": 3,
+              "value": " Kerber"
+            },
+            {
+              "id": 4,
+              "value": " Kvitova"
+            }
+          ],
+          "answer": 1,
+          "marks": 2,
+          "subject": "Sports"
+        },
+        {
+          "type": "MCQ",
+          "question": "Which of the following is not associated with the UNO?",
+          "options": [
+            {
+              "id": 1,
+              "value": "ASEAN"
+            },
+            {
+              "id": 2,
+              "value": "ILO"
+            },
+            {
+              "id": 3,
+              "value": "WHO"
+            },
+            {
+              "id": 4,
+              "value": "UNICEF"
+            }
+          ],
+          "answer": 1,
+          "marks": 3,
+          "subject": "GK"
+        }
+      ],
+      "creator": "kvats",
+      "examinees": [
+        "PK\u0003\u0004\u0014\u0000\u0006\u0000\b\u0000\u0000\u0000!\u0000;H�@i\u0001\u0000\u0000�\u0004\u0000\u0000\u0013\u0000\b\u0002[Content_Types].xml �\u0004\u0002(�\u0000\u0002\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000���N�0\u0010E�H�C�-Jܲ@\b5��\u0012*Q>�ē��/y���=\u0013�V\b�T��Ċ�sǓ���l\r\u0001��%\u001b\u0017#����T�)���)�e\u0019Fa���Bɶ�l6���,�\u001e0�l�%kc�w�cՂ\u0011X8\u000f�\"�\u000bFD�\r\r��Z�\u0006��ht�+g#ؘ�N�M'\u000fP����ㆶw$�β�ݹΪd�{�*\u0011\t�wQޛ\u0017@�@���_t�7YA�I\u001c[���o�\u000f\u000f�/\u0007e��R��^��AI��\"�ga��o4�ta��ܲ\u0018.���յ�@�je�k\u0005�\u0000Bb\u000b\u0010�.�Z\u0018��y�?\u001dF���A����\u0011�Hw\u0004x����d�\u0018b�j�s�=�\u001esnE\u0000�\u001a\u0003M��\u0001~j\u000fqн�\u0007瑦.����\u001f�.;�$\u0004!*8\fH�e;8�Ȟ�v��\u0004\t�Ǜ�7h�\u0005\u0000\u0000��\u0003\u0000PK\u0003\u0004\u0014\u0000\u0006\u0000\b\u0000\u0000\u0000!\u0000}�T�\u0007\u0001\u0000\u0000�\u0002\u0000\u0000\u000b\u0000\b\u0002_rels/.rels �\u0004\u0002(�\u0000\u0002\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000���J�0\u0010���\u0010rߦ���l�\u0017\u0011�&R\u001f`6���6��d���F\u000fj�\u0014�=Nf�����v7ځ�a������\f�\"m\\+�k����,&p\u001a\u0006r(�\u0019#�U�W�\u0017\u001c �K�3>����]J�A��:�\u0010\u000b��r��`!�2��E�)�;\u0011~k�j���Z��7��g�7�G[XL�!�P\u0014p�C&\u000b�d/���b�\\�z���k���\\�\u0003��\u001d���(|$u��Ҍg�cB�Q/#��KD�K\u0012M��g\u001c�;��@�/�l.\u001bW�N���\f3A}�����3.1���\u0007\u0000\u0000\u0000��\u0003\u0000PK\u0003\u0004\u0014\u0000\u0006\u0000\b\u0000\u0000\u0000!\u0000���n�\u0000\u0000\u0000�\u0002\u0000\u0000\u001a\u0000\b\u0001xl/_rels/workbook.xml.rels �\u0004\u0001(�\u0000\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000���j�0\f���}qҍ1F�^Ơ�-{\u0000c+qhb\u001bK����ɠM�t�\\\f����'���g\u001c�\u0017&�WP\u0015%\b�&��w",
+        ">�׻'\u0010��[=\u0004�",
+        "&$�շ7�7\u001c4�O��H\"�xR��㳔d\u001c���\u0010��N\u001bҨ9��ɨ�Aw(7e�(��\u0003�3O��",
+        "��ރh�����\u000em�\u001b|\t�sD�\u0017\"$�4�\u0001D�S���O\u0017�\u0011����U�Nh�9��.)��k0՚0�!\u001d�!�i\u001d�\u0012ɹS]�٬\t��`�\u00042K9�G\u0006yvq�/\u0000\u0000\u0000��\u0003\u0000PK\u0003\u0004\u0014\u0000\u0006\u0000\b\u0000\u0000\u0000!\u0000l߃��\u0002\u0000\u0000C\u0005\u0000\u0000\u000f\u0000\u0000\u0000xl/workbook.xml�T�n�0\u0010�\u0017�?\b�+�dI^`9p��\u0006�\"H��i���pQI�VP��;��,�%m/�\u0019Rz|��P��V��;3�kU��,B\u0001ST�\\\u001d\u000bts�\r'(����\b�X�\u001e�E����'m��Z�\u0007\u0000�l�*��\u0019ƖVL\u0012{�k�`砍$\u000eJsĶ6���b�I��(ʱ$\\�\u001eafނ�\u000f\u0007N�Z�F2�z\u0010�\u0004q@�V��\u0003��o����7uH��\u0001b�\u0005w\u000f\u001d(",
+        "$��J\u001b�\u0017�v\u001bg\u00032���%�F[}pg\u0000�{����#\u001c�}ˋ��\u000bv��\u001e���L�?E�@\u0010�6%w�,P\u000e�>�\u0017\u000b��/\u001a.`7���\u0014\u0005x��ť�\u00150_",
+        "ǌ\"���r �o��W�\u000e{Ui� �b�\u001an\u00188�Y��I���%qU�\u0018Q |c�C\\\u001b�*�\u001d\u001el����/����5��'���\u0019u���䵇!4��6\u0018��)/�>�S���O�-g'�$�/����R�",
+        "\u0004w�a��\u001c�S�q�KWy\u001b&���\u0007Ə���4���#�+?�\u0005�|\t��g�uW\u0001N�b��\u0011��G\fw��\u001d�\f��qḪ��C\f�Q\"(X�C�&��O�Z��\u0018�}\u0005;\u001d}����u]\u0004wx�~���,���0^/�0��Ix\u0011��0]�7��4\u001b-G��Ov��6��\u0014O��o�t6�7�x�\u000e�\u0011n'ɑ�k�4J����\u0011���%�M�\u001e�I�\u001d��l\u0013�q>J�<�&Y�J�4K\u001e���mT%����u?��@R�����n\u001dl\u00059�|'�\u0018����x�c�\u000b\u0000\u0000��\u0003\u0000PK\u0003\u0004\u0014\u0000\u0006\u0000\b\u0000\u0000\u0000!\u0000D�)w\u0003\u0002\u0000\u0000�\u0003\u0000\u0000\u0014\u0000\u0000\u0000xl/sharedStrings.xml�S�n\u00131\u0010�#�\u000f��p�v��\u0016��T%��",
+        "����y���#ymcO��'~�\u001b�§�%̦\u0007��������{�㓇���R��'��pP\u0000�:\u0018��������m\u0001Y�\u001bt�Ӥ�Q.N�/_�s\u0016�Z�'�\u0015��*ז\u001ȧ!�כ��\u001a\u0014=��*�Dh�%��U���j�}\u0001uX{�\u0014#m���mM�'`xTLǙ�c�~�}\u0019W2\u001dW��\t��\u0004Mh�\u000b�;`OI\u0018�O��`v`\u0002e�A��j1���\u0003˫��g�)|��V� (�A��~�0�'.�,����e�h��!sK�7�v�^֬VR\u0017^Y�m[/:�]p.l�l�D �ʉ\u000ew��I��\f%J�\u0012k˾�\u001a<:\u0013�\u000fv����QOA\fIr_\u0000",
+        "l1�\u0005\b7\u0004�\u0012\u0007�j��f�a�\u001bv��7\u0004*�c�\u0018�����^\u000f\u0006�~\u0006\u00070|��*�9t�^*t�g=�����9g\ti�\u001f$��9��Gk�h0<�U�\u0017���ȰT[�.�[GFI3�M����ؓ?GG�T�s�M.aA�V݆ņ%l�?s�����e��A!\u0003[\u0016��wsy��z�<;�,/>]���Uysy1;;�v����T��M�\u0000\u0000\u0000��\u0003\u0000PK\u0003\u0004\u0014\u0000\u0006\u0000\b\u0000\u0000\u0000!\u0000�\u001b\u0014�\u0006\u0000\u0000�\u001a\u0000\u0000\u0013\u0000\u0000\u0000xl/theme/theme1.xml�Y�n�6\u0014�\u001f�w\u0010t�Z�%�\u000e�\u0014�l�[��h�n��e�bC��H'5�\u0002{�\u0001\u0003�a7\u0003v���\u0014؞���=�\u000e)�\"c��O",
+        "t�b ����\u001f�9��w��Ӕ:�8�e=�q�s\u001d��lF�E�}8\u0019�:��\u0005�f��\f��5����?��\u000eD�S�@��\u001f���\b�<��y\fň�`K���9�S$�5_�g9�\u0000�)�7=/���d���\u0014�ޛ�I���4�\u001en��(�f�˂���46j(��!\u0011|�#�;��\\hg�.&��p\u001d���\u000f=�Sn��f\u001d\u001d����SW�7Ve���쬩��\u0017�m��\u001f�ak_\u0001��ōڣp\u0014n�)\u0000�c�i�Ŵ�nF~��@ţ���=l5\f�f��ù\u001fȟ�W�¾��\u001f�#�W�\u0002\u001f���Aw04�+P�\u000fw�m�?�ۆ}\u0005J(��v�^\u0010��Mo��9����n�����x��l�f�lb�2�/�R��c\u0000H E�d�X/�\u001cŐ�\u0011�d�\u0013�,\u0012H�%�\u0018�b�鍽\u0016��?_=���\u0003��ڒ\u00170�;E����,E��\u0012��\u001a���9b\"!q٪2bԸ���^��/����7�_������E���\\�\u000fq�����M\r@o+7����\u001f��|�����b����\u000e��\u0014s�.�p\u001e�\u0014:g�\u0001���Vc� b�@\tض�\u001e��t��5�6�\u0000���\u001e�06�����4�W�XZ���\u0006��1:`��\u0001wd[��'�lao<_�\u0007\b��ڎPf�x�Z��\u0012��(�\u0006��\u0014e\u0002-p��#��3�-�{L���\u0013\u0012猳�p\u001e\u0013g���%\u001325\u0012��t��\u0010��� �����#g����C|n\"a` j!?��p�\u0011Z\t��LNPJu�\u001f#��H���XǍ��H/0e�h�9�չ�C���\u0001u�����S\u0013�\u000brf�y�\u00183�6;�\u0012�.��I���/�\u0019�(r�3a��0s��w�\u0003�ƾp?\"�\b��B�\u0010�U�T%����-�<��\u001c�k:GX�\f�!�)ɮ��K�\u001e|lU������(y?'��t��~���\u000bU{�V�}\f\u0003ew��_��\u0017m�?/�����Ku�� ��\u001a]��ӽ\u000b�9��T�)>�j��aN���Pm&Ԏr��[&�Xn\u000f\f�\"G���3�\u0015\u0011�i����o��炗�\u0017�Y2\u000e�}U�6���m�kX�'lV�S\u001b\r�'-ă#Q�{��\u001c�\u0018�@��j�5�v�\u000b�G�\u0010�u߅�֘I�e!��\u0014B\u0014�DB��ZXt-,:��&T�(n]\u0001ԶQ�E�\u0003K��\u001b���\u001f�R�♌Sq\u0014���\fεFz�3��\u0001���d@\u0015�亷{�wE��E�\r\u0012Z��$�4L�\f�٩\u001f�\\g��UH\rz�\u0015��P�hw>F���\\�\u0006��JA3�熭\u0000��b��s���c����r���\u0002\u000e�b�\u0017\u0003�}�e�s1D<)\u001c�D�P��\b�;��=Wv�\r4S\u001a��5� \b�,�.�ʧF\u000e�n\u0006\u0019��8\u0016zص\u0012���\u0015\u0014��",
+        "�WU����&[A�O�م3���\u0001�\u0014\u000b�\r��\u0019�p��(�9#p��\u0015�*�.ML���\u0007�*��rD�\t*g\u0014]�\u000b�\u0012�-\u001d�����V�\u0019\u001c����BN�\u001f<�^=UK�i�Y͙���Y�.�\u001fo��XU�����n�m���u7Z\u0007�j�%��u�bBШU�\u0019�$�]\u0019��]��ԮqA�y\"���\u001ca�����P�r��\tb��T��.<�;\t6}\u0002�1���\u0015\u0015\\�\u0012n\u001cr\u0004������\r\u0018\"OE�F�'g�����\u000b�~�\f���\tF5��{�N�o��A�j���7\u001c4���\"��\u0011\u0014�-c8�����E��\\���s�\u001b1K�L]��\u0015qu��h�vq\b�γ�9���m��58�ԺQ8�\rè=\u001c\u000f���\u001d?w�s\u0005����\u000fG�Z؈��\u001fz�~�[k��f�o�;#���\\�@�\u000b�(}\u0001�U�\u000e�\u0001\u0000\u0000��\u0003\u0000PK\u0003\u0004\u0014\u0000\u0006\u0000\b\u0000\u0000\u0000!\u0000t��D�\u0002\u0000\u0000\u0016\b\u0000\u0000\r\u0000\u0000\u0000xl/styles.xml�U]o�0\u0014}������BҤM\"�Z��U�I���\u001a0Ī?�m��i�}׆\u0010��n��\u000b���������g;μ-Q�J\u0011��Q�<\"2�SQF��m2�#O\u001b,r̤ \u0011j�Fg��w�6\r#7\u001bB�\u0007\u0010BGhcL��}�m\b��HVD�J!\u0015�\u0006���u�\bε�ę?\t�\u0013�c*P����k@8Vwu5�$���)e�4\u000e\u000by<[^�B*�2��\u001bOq��v�G�fJjY�#��eQЌ<f��\u0017> �a!��^&ka\"t\u0002�6��N�o\"�K���+\u000e�wo�\u0019�L���a&�T���\u0000���\u0012����\u001c3�*�f\u000b�)k��v�Kh��)\u001c����LKi\u0010l:\b��4BIr�\u0007\u0011?\u0012�%�fػ&5y\u001ep�?Ƀ��L�D������\u0004��W�\\�\rQԼ��\u0004��}\u000f�����\u001d\r�C\u0019�\u00153� 8\u0004�\u001a�D\u0002\u0003��o�",
+        "�!��:>��7���x2\u001b��]�8L�ʡ��j��l�␑��\f)Zn�adeǩ4Frk�\u0014�R`fm��3�T\u0019a������^�]ቚ'�\\�\u0011���Jto�q:���\u00066�\u0010�\u0005\u001f��\u0000���\u0015�\u0000�m�2��z�V�\u001dW\u0015klq��90�շ\u0003;~K0x\u0013ގ\u0019h����\rÝ\u000e�sO7�\u0000<�&F���\f���\u0016Қ2C�S�\u0001�|w�!�\u000e$el\u0007p",
+        "���BN",
+        "\\3s�/F�`\"9�9�w��g���AD�`�^�.\bٙ+\rO0��Z�\b��X�.�\u0017�d4\u000fV�����F��j=�M�W�u�\b&���AG��~��&T�x��\f���N۱�9�Eh0��%߶\u001f\u001fxC��O�\u001f\u001az�\u000b\u0000\u0000��\u0003\u0000PK\u0003\u0004\u0014\u0000\u0006\u0000\b\u0000\u0000\u0000!\u0000\u001b�wG�\u0002\u0000\u0000]\u0007\u0000\u0000\u0018\u0000\u0000\u0000xl/worksheets/sheet1.xml�UMs�0\u0010�w��A�{�\r�\u0004�v&��4��t�y\u0016�\u001ak�-W\u0012�����B�\f)\u0017F�>=�۷^��$;PZ�:��ȧ\u0004j.3Q�#��GzsO�6��X)k��+h�\u0010�\u0010���\u0002�\u0010d�uD\u000bc���i^@��H6Pc$��b\u0006�j��F\u0001��KU�}�ULԴcX�k8d�\u000b\u000e���",
+        "jӑ((���u!\u001a}`��5t\u0015S�ms�e� �J�¼���T|񼮥b�\u0012u�\u0004S�\u000f��f@_\t����\u0019!��%:�<��\u001e2�a&P�-;Q�G�1X���xq�\u0016藀�a��P\u00027��O������X�3\u001e�H�[��d܈\u001d,�,#����?�#v�/x�'���sik�WEVL�R��Ef",
+        "|\u0013[#��mK�M�?�X\u0017\u0006OgX\u0014[�E����h",
+        "�2\u001a�)I�aq�䞠���n�m�`�7[\u0006찳\fq��G���\u001a��b?�v�3�\u0017�d�Z�#\"8E,��ǧ�$h9�ӧ�tr�M�<o1\u000fu\u001dš辸wEYlD����!b�H\u001b\"n\u001d�\u0007�-�S��wb�yvd>�<\u0019�9Ƴs�o�؝�\b���\u0012F���sTw�i���Q=imu��t�4��4?�\u0011���V�}��~��������-9@�Yڏ9]�\u000e�/X�C��D�o)^�h�%�h\u001f\u00118�-O�Η���\u0019�ow�~�'Do\u001d��l7��y԰5|aj-jMJ�ۡuG�ꦚ?µ��\u001dewȹ����+�_\fp2�#�\\Js���z�c��\u0002\u0000\u0000��\u0003\u0000PK\u0003\u0004",
+        "\u0000\u0000\u0000\u0000\u0000\u0000\u0000!\u0000�\u000b\\�|R\u0000\u0000|R\u0000\u0000\u0017\u0000\u0000\u0000docProps/thumbnail.jpeg����\u0000\u0010JFIF\u0000\u0001\u0001\u0000\u0000H\u0000H\u0000\u0000��\u0000�Exif\u0000\u0000MM\u0000*\u0000\u0000\u0000\b\u0000\u0004\u0001\u001a\u0000\u0005\u0000\u0000\u0000\u0001\u0000\u0000\u0000>\u0001\u001b\u0000\u0005\u0000\u0000\u0000\u0001\u0000\u0000\u0000F\u0001(\u0000\u0003\u0000\u0000\u0000\u0001\u0000\u0002\u0000\u0000�i\u0000\u0004\u0000\u0000\u0000\u0001\u0000\u0000\u0000N\u0000\u0000\u0000\u0000\u0000\u0000\u0000H\u0000\u0000\u0000\u0001\u0000\u0000\u0000H\u0000\u0000\u0000\u0001\u0000\u0003�\u0001\u0000\u0003\u0000\u0000\u0000\u0001\u0000\u0001\u0000\u0000�\u0002\u0000\u0004\u0000\u0000\u0000\u0001\u0000\u0000\u0001\u0000�\u0003\u0000\u0004\u0000\u0000\u0000\u0001\u0000\u0000\u0000�\u0000\u0000\u0000\u0000��\u00008Photoshop 3.0\u00008BIM\u0004\u0004\u0000\u0000\u0000\u0000\u0000\u00008BIM\u0004%\u0000\u0000\u0000\u0000\u0000\u0010�\u001d�ُ\u0000�\u0004�\t���B~��\u0000\u0011\b\u0000�\u0001\u0000\u0003\u0001\u0011\u0000\u0002\u0011\u0001\u0003\u0011\u0001��\u0000\u001f\u0000\u0000\u0001\u0005\u0001\u0001\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t",
+        "\u000b��\u0000�\u0010\u0000\u0002\u0001\u0003\u0003\u0002\u0004\u0003\u0005\u0005\u0004\u0004\u0000\u0000\u0001}\u0001\u0002\u0003\u0000\u0004\u0011\u0005\u0012!1A\u0006\u0013Qa\u0007\"q\u00142���\b#B��\u0015R��$3br�\t",
+        "\u0016\u0017\u0018\u0019\u001a%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz���������������������������������������������������������������������������\u0000\u001f\u0001\u0000\u0003\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\t",
+        "\u000b��\u0000�\u0011\u0000\u0002\u0001\u0002\u0004\u0004\u0003\u0004\u0007\u0005\u0004\u0004\u0000\u0001\u0002w\u0000\u0001\u0002\u0003\u0011\u0004\u0005!1\u0006\u0012AQ\u0007aq\u0013\"2�\b\u0014B����\t#3R�\u0015br�",
+        "\u0016$4�%�\u0017\u0018\u0019\u001a&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz��������������������������������������������������������������������������\u0000C\u0000\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001��\u0000C\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001��\u0000\u0004\u0000 ��\u0000\f\u0003\u0001\u0000\u0002\u0011\u0003\u0011\u0000?\u0000��|3�\rO�\u000f�?��9��Dҥ�it�\t%�Y,-�I$��,�;���K3\u0012I$�@\u001b��xW���\u000f�\u0000��N�\u0000�\u0014\u0000�%�_�\u0016�?�\u0000�m;�\u0000�P\u0001�\u0000\b���Z��\u0000�\t���1@\u0007�\"^\u0015�\u0000�k��\u0000�&ӿ��\u0000\u001f��xW���\u000f�\u0000��N�\u0000�\u0014\u0000�%�_�\u0016�?�\u0000�m;�\u0000�P\u0001�\u0000\b���Z��\u0000�\t���1@\u0007�\"^\u0015�\u0000�k��\u0000�&ӿ��\u0000\u001f��xW���\u000f�\u0000��N�\u0000�\u0014\u0000�%�_�\u0016�?�\u0000�m;�\u0000�P\u0001�\u0000\b���Z��\u0000�\t���1@\u0007�\"^\u0015�\u0000�k��\u0000�&ӿ��\u0000\u001f��xW���\u000f�\u0000��N�\u0000�\u0014\u0000�%�_�\u0016�?�\u0000�m;�\u0000�P\u0001�\u0000\b���Z��\u0000�\t���1@\u0007�\"^\u0015�\u0000�k��\u0000�&ӿ��\u0000\u001f��xW���\u000f�\u0000��N�\u0000�\u0014\u0000�%�_�\u0016�?�\u0000�m;�\u0000�P\u0001�\u0000\b���Z��\u0000�\t���1@\u0007�\"^\u0015�\u0000�k��\u0000�&ӿ��\u0000\u001f��xW���\u000f�\u0000��N�\u0000�\u0014\u0000�%�_�\u0016�?�\u0000�m;�\u0000�P\u0001�\u0000\b���Z��\u0000�\t���1@\u0007�\"^\u0015�\u0000�k��\u0000�&ӿ��\u0000\u001f��xW���\u000f�\u0000��N�\u0000�\u0014\u0000�%�_�\u0016�?�\u0000�m;�\u0000�P\u0001�\u0000\b���Z��\u0000�\t���1@\u0007�\"^\u0015�\u0000�k��\u0000�&ӿ��\u0000\u001f��xW���\u000f�\u0000��N�\u0000�\u0014\u0000�%�_�\u0016�?�\u0000�m;�\u0000�P\u0001�\u0000\b���Z��\u0000�\t���1@\u001f����|)�\u0000\"���\u0000�\u0001��\u0000�ڀ7�\u0000�\u0002�",
+        "\u0000(\u0000�\u0002�",
+        "\u0000(\u0000�\u0002�",
+        "\u0000(\u0000�\u0002�",
+        "\u0000(\u0000�\u0002�",
+        "\u0000(\u0000�\u0002�",
+        "\u0000(\u0000�\u0002�",
+        "\u0000(\u0000�\u0002�?����|)�\u0000\"���\u0000�\u0001��\u0000�ڀ7�\u0003�\u001b_\u0016|\u000e��!h�\u000e<uy�k��\u0018|o�h�4�XO���?�v�z�������cv�\u001bѵ\u000bmR�\u00032I\u001d��q\u001a2Ep�\u0001���B~�\u00176ZF��x�ᶿo�x��\u000f�4��n<Wyu�|&�,>\u000e��tt�\u0000\r�sT�-�)��ėz~��/\u001e]Z��o\u000eI��j�#���4���\u000e���\u0000���o◊�o\u0004�",
+        "���\u0000�|K�Zk\u001a�ء�����t�\u000e�x_ĺ�umOB��� �w�>'���׉�E�]G�Z'�<C{a��W�:�����\u001e��\u0000\b\u0007�?�J��\u0013z?�\u0000\"P\u0001�\u0000\b\u0007�?�J��\u0013z?�\u0000\"P\u0001�\u0000\b\u0007�?�J��\u0013z?�\u0000\"P\u0007��\u0016~&�|\u000f��-qm�1���W�>,7�{\u001dsE�~\u0017�`�o��/k>",
+        "�ug���>�\u0000�Q�.���ۤ�~�`��",
+        "���\u00006~\u0017���\u0000�?��Y�\u000f�z�������\u000b��Z�����x\u0016�[Mg�^\f��u�\b,�t���oΗ�^��rC\r��f�4-cđZ7��_Q�\u000fZ�'�?f?��\u000f�<Q��T�G��\u0000\u000f�T\u0017�\u001e��Z�r��E��Y��Ph�[���3����L��W�%�T�.o,%��<�C���a_\u0013j�.���\u0000�߳�����V�4M",
+        "���·\u0013��,�����\u0002[��ź���h�\u0015�w\r+Ě�����_j\u001a��d�\u001bI���.�M?��\u0004��;Y%��מ\u000f�����x�/\u0006^_�^L��6����x�)���ϧ��%�-R��T\u000fh�\u0015�/���)񦰚\u0007�<�#U�Z��w�i�I�x.l���^^x��RK� \u001aV���7O�ֵm\u001fRk]Z�@����M\u0016\u0017�@\u000fD�c��8��\u000b��X�~\u000e�WU��/mo��4y���\rN�\u001b����̞�\u0018\f?�\u0004�\u001c-\u0011�#d�\u0001�`�/\u001a���\u0012��w�\u0016\u001a^�t�x6�\u001d9-����;M�=j])4k�B{�:�7�m���mQ�n.�����n�\u001f�x�W���OZ��=�]'JѴ�O]�/��-\u0012\u0018,t}\u001aٯ5]Jr֙[M>�L�s\u0000�\fx/�r�\u0000��B�\u001d���\u000f",
+        "����\u0015�d��t�-s�sk�\u000fn<\u001f�_i��+se<�\u0019񇇴\u001f\u0013i�\\[�N����ax!�9Z�$��\u0001zk\u000f�6��ው?�\u001e#�t=��&�-��#��\u000exV�A��6����\u0012�^��\u001e��O����J�),�˟\u0010h��K\u0014����\u0001�y'�\u000b=f�Í�x\u000e��vV�",
+        "������3\\���'�.���c�:�����u���xo�:惯X�x����A_�\rz��Q��E��-\u0000-x\u001b�\u001e\u000b��W�!�{���\u000bx~{���?�M<�ͤ�I,�K%�I,����H���Ř�$�\u0007S�\u0000\b\u0007�?�J��\u0013z?�\u0000\"P\u0001�\u0000\b\u0007�?�J��\u0013z?�\u0000\"P\u0001�\u0000\b\u0007�?�J��\u0013z?�\u0000\"P\u0001�\u0000\b\u0007�?�J��\u0013z?�\u0000\"P\u0007���,���|u�e��)a�>��\u001a��4�\u0012�����j�z>�gw����k�\u000f��g\\�l�}#Vռ;�뗞#���F�Z����˘n�\u0003�|)�o\u0004�x_�s���\u0000\u000bM<�\u0006�4�M��&If�M:��Y\u001eԼ�H�]݉ff,ē�\u0000��\u0000�\u0003���%xK�\u0000\t�\u001f�\u0000�(\u0000�\u0000�\u0003���%xK�\u0000\t�\u001f�\u0000�(\u0000�\u0000�\u0003���%xK�\u0000\t�\u001f�\u0000�(\u0000�\u0000�\u0003���%xK�\u0000\t�\u001f�\u0000�(\u0003��O⿀�\u001a��/�ze��,�)h?\u000e|U�\b�Y�\u000by�Kw�h�\u001a$Z���=~���:\u001f�S·�2�e��$𖱬O��C�^\u0018��\u0012�W��\u0015�\u0007����|)�\u0000\"���\u0000�\u0001��\u0000�ڀ7�\u0003�\u001f����<K�C����\u001e\u000e񗋾\u0017���b|kо\u0019|A�φ<\u0013�k�\bx��_\u0016�\u0000g?��W��b�\u001f�\u001f\f<��M��]C�\u001e%�\u0011C�O\b|K�\u0006�.����q\u0006�\u0001����/����\u001f\u0007k�\u0000�Ư�\u0000\b�>\u0013�����9��^\u001f����\u0000�U\u0012<_�\u000f\u0017i\u001e\u001cғI��|\u0001�i~-�D�\u000f��o\u0019O�j�g�,5K��|\u0014���-�\u0001{�w�����������S�~ |\u001c���\u0003|N���\u001fh\u0010�/G�{�\u001fC�\u0007�o>\u000e_�_]�g���w|A�>+��EӾ\u0004�3�ڜV^\u001a�9��\u0007W�'�\t��T�H�\u0007��$z��\b>-�\u0000��\u0002�m@\u0007�$z��\b>-�\u0000��\u0002�m@\u0007�$z��\b>-�\u0000��\u0002�m@\u001f9x����ſ\t�7IM#�\u001a2�'����\u0000��w\r���T�_�ƫ�\u001a��\u0015��-\u0012K)u),\u001bE�V_���O�^�Y�6�\b�\u0000񯈿���L�|M��t���D�ǯ�\u0019u����\u0000�j�|c���&�������X�R�X�z>��\"O\u0014�x����4xt3��\u0012�jv�\u001a\u0003?f\u001f\u0012�(���\u000b\u000f\u0010\u001dw�^+���?\u000e�8��>�au\u0004:�|#�x��A�k_�\u001f��\u0000�O\u0010��G��@�.�>��x�B����G���;�Z��\u0001G�\u0019'R\u0016Kg\u001c�(���?`O\u0004y��o\u0000�c��~6k�\u0000\u0018���>/.\u0013�I�[ñ���� ��q��<�\u0000y�\u001f�Ǎ��?���^!�f��x3�w���e�N�L�e�+�\u001a�����o�7i�G]���5[�~\"}\u001b�_��\u001f\u0006����\u0000\u000ft�o/u�\u0019�\u000e��]iV\u001a(\u0007i�k�,O��\u001e�ǅ5ټw�h�\u0010>2|q����\u0017G�\u0005���w���3�'��\rI�)�\u001cZ��g��\u0000�L��Iqcu\u0005��4>\u001d���0]��n\u0001��6��<y��\u0002~$���%��\u000f\r]���C�W�~7�ֵ�!�à��]��P��<-��G�>2�~$Y�-�{�ۿ\u0013�i>\u001a�mt\u001b�&������\u001eg��\u0000�.<C�_\u0002[x;F���-sU�\u0007�ǃ~!�F�c�\u001a��H��o��h\u0018�x������_",
+        "|L�؇����7^<����1�+=w�z��妩��{��-�\r����\u0000\u0016u�:�+���&�f��k�]o���\u0000\u0018|CЗ��\u0013���_�o\u0004|H���[�o᷋���q'�o���3V_\u0017X��}%�A�C�y�40\u000e����G�ϊ�\u0012�w�\u0019<-}��O���'�\u0005�/x\u0016����\u0000\u000bn$�n���D�5����\u000b��%[��O[�^��T��Ҵ���S��ƣc\u000f��{k[��@<'P�\u0000�nx�K��O���",
+        "x��C���\u000b�4��k�T�\u0000\r|1��t��{�M3�\u0017��c�����Εb>\u0001\\\\x��]��x�\\����\u001aUςu�\u0012��i�\u000b�o�&}���\u001bmj{k��#�\u0007�����5��\u001e\u001d�Ռ\u0000?ko���Ǉ��w�nhM{P��\u000f\u001f�|.�Cԇ��ч��\u0000��+�X��B\u001e\u0013�\u0003�'�\u001aޭi�O\u0005ZG��\u0013��k�/\u000e[�ݵǂ㷺Ht{(��\b�c\u0005�p̪%�. �uFU�(�\f�\u0001��\u0000�G�Ѓ���\u000b�'�\u00006�\u0000�G�Ѓ���\u000b�'�\u00006�\u0000�G�Ѓ���\u000b�'�\u00006�\u0000�G�Ѓ���\u000b�'�\u00006�\u0001�_�>\u0018|[�?i\u001bߏ~#Ԡ�>\u001e�s�f��?�?\u000b��\u001chpk�\u000e���6�>>�e��[O�2]#V�\u000f�um\u001f���W���{˭\u000b�^\u001d�����\u0000���\u0007���\u001a�}+�O\u0010j��_�q���Sp��\u001a:$���$E:��l�4B\u0018�8�@\u0003��\be",
+        "�I\u0014o�\u0014\u0003�\u0012=c��\u001f\u0016�\u0000�_�?���\u0003�\u0012=c��\u001f\u0016�\u0000�_�?���\u0003�\u0012=c��\u001f\u0016�\u0000�_�?���\u0003�\u0012=c��\u001f\u0016�\u0000�_�?���\u000f��E�O�������7�O|�k�\u0001���I�����kq\u0006�⫏�z��~*׵��\u0017�\u001e\u001f��\u0011˯�wR[����o�ۭi|I4�$o\u0010��h�\u0003����|)�\u0000\"���\u0000�\u0001��\u0000�ڀ7�\u0003����ſ�\u001f៌�#�|\u0019�Z~$xW�:�ǽ+�W1xO����O�ך��\u001f\t�\bյ-WA�-��\u0005��|gt�\u0000\u0013V����O�kg�ψ��:6����3\\\u0000y���\u0000iO��V�_��O\u001exCZ�}�gW����\u000fF����\u0000h/\u001a�\u0000¯����\rOŭ�4�z���=׊�\"��\u0016�<#�q��-��\u0011�~,�k^\u0001�^��\u0000}��;�:��߂�\u0000\t�\"x�L���K㏇\u001e",
+        "�W��\u001bE��\u000f\u000f��\\�����\rܳ�[6��\\_i2�^�%���omx�j�j\u0000�*\u0000(\u0000�\u000f�ߏ\u001d?h��W�\u000f��Q�oY���}_ğ\u0012<E���%�o\u0015����\u0015�Ï����\u0012�M���B=[Ɵ\u0010<!��i�\b�6-��/�W�^���Ēj0i�@\u001c���N~ٞ\r�k�+�i��t�\u0000���5�\u0010�\u0007M��\u0017��/\rk�'��|5�x�]\u0003O�c��sD�������\u0000�%�×\u001f\u0010�\u0015�#�/��{\u0018�X�>��k@\u001e��?�/����G�=oƟ��s��_Ŗ\u000f�_�O�����\u0015�O�W���\u001b��\u0003�\u0014�\u0000�&\u0016�\u001f\f>\u001a�Oÿ\u0013�G\u000e��\u0015k~\"�.��x���\u001c����\u0000y���D�ّ|\u0014�~%��\b��<a�\u001d�V\u001e\u001f�ow��\u001ex�Z�q੿d��\u0000\u001exr�t�\u0013ᮛ�k�!\u001f�\r���mV]wL��S��ך4ڿ�\u0010Ft0\u000fY�_�'�Bx��~ �\u000e��)��\u000e:'��\u0000�Z�^<��|Q��\u000fX񇃾!x��>\u0018�4;����\u001e�UҼi��OH��\r;�Q�-�.,<-�h���\"�@<\u0007O���l��\u000f�1��~�>6��u���-;�w���_�5�� �~\u001d���\u0000���a?��\u0001xSJ���v���\u0013S�n���]\u001bJ�,�\u000f�p�\u0003�\u001a���n�;�~<~�>\u000bҏ��+�'\\����\u0003��\u0000��\u0012�\u0000�\u001b�h��^,��!�N���\u0003��*��5���g���g�4�\u0007��'�4�",
+        "6���Oq6�#�_��\u0003\u0003C���j�ψ_����W�",
+        "��Z���c�P�,?\u0010!_\u0005����\u001f\u001e��#��]��J�5�:�D�?�}KJ��W\u001a����/\u0017�cƞ+�f��Z�\u0013�v�\u0014���\u0000i�SӴ�_�0�|'-燾\u0014k�z޳�\u001f\u0018��])�%k�\u000b�լn�W�1\rػ�o�o\u001d���\u0000��׺f�s����o��]B\u001b\u001d\u0007Q��~�\u0001��~�?\u001a4?\u0011k�h_���_�^\u000e�\u001f�o�zO�=g����\u0000�>\u0016ѣ�G�a5a���R��Y�B5\u001dw������\u0015�t�\u0001Yi��.���\f�!�t_\u0003�Q����\u0000j�m�|G/��K�\u0007XӾ\u001dj:6��i�\u0016��A����0�{�x��چ��?�>\u000e��t�O\u000fx���ľ*��4k�\u001b�\f�v�~\u001b���I��\u0000����P���x#���Ï�\u0011�\u001f\u0016l�,�[|s�{u��\u0000�_\u0012m<%�F]\u0013�\rퟍ�[�o\u000e|9ֵ�u��\u001d�=�����^���\u001e\u0018�t\rwW�\u000f�\u001b_\u0000����\u0017��Wd1��;�\f��P��bJ\u001c��I���;P\u0007c@\u0005\u0000\u0014\u0000P\u0007���\u001a��i����V����\u0007���O\u0015�\u001f^O��8��ˏ\u0013x�P����E�g���Iq�/\u0018j\u001aM����T���?���h\u0016�!�]N�R\u000e�6@\u001e����\u0014|-�\u0000b��\u0000��Z\u0000��\u0000�\u0002�",
+        "\u0000��P�׍uO\u001f��_\u000f��.�|\r�/��\b׼\u0011����8�ޙu�x�G��\u000f��<�\u0010��.|\u0015�\u0016�\u0000D\u001a\u001f�ui[��`�\u001c��D\u001a\u0016��˩Y\\_�\u0000����|)�\u0000\"���\u0000�\u0001��\u0000�ڀ7�\u0003Ǽ+�-\u001bW��ח���s�\u0014F~��?\u0011i��[�[i����9c�XC\u0011�I",
+        "�\u0001�¾�צ��\u0000���?�{@\u0007�+�\rzk�\u0000�Yx��\u0000��\u0000¾�צ��\u0000���?�{@\u0007�+�\rzk�\u0000�Yx��\u0000��\u0000¾�צ��\u0000���?�{@\u001e\u0016�\"�Y�?\u0016|3�m�k�\u0015Z���?�>4�\u0000�>��/�CQ�ww�\u0015j�U������Z�xKKԵk$�\u001e~�\u0016��ܙ%��wp\u000f/���d��\u0000\u0004~�\u001f\u0010,�O�i�=�!x��>\r���{� ����\u001c����xJ���7�`��l5_\t�Z'� ռY�j�\u0015���Ƞ\u001e��X�W�K�F���|_-���\"x��n�����m�Ok�\u001f��\"���R)u��E���as\u0005��.�����\u00061�P\u0007��\u0000¾�צ��\u0000���?�{@\u001cG�i~\u0013�^�\u000f�~'�:ֵ�\u0012x\u0013�z\u0015���%�\b|O��\u0018u�\u0007T�\\iڔ6���c��\r廤�Gyiop#u2D��;�W�\u001a���\u0000���\u0000/h\u0003�<?w����W��\u0013�^8�|1�\u001e�\u001a���\u0007[���[�\u001a���t$�|)��x��}wP�\u0013\u0013�g�Z]\\��,і��\u0000zl�\u001d�{k�i�\u001b��nm�G�难��h\u0013�C�$:֧�x~�G�׵m?J��k}{�h�~!�-u{�kymt۝sG��Xe��p\u000ez\u000b��W>\u001a�񥷏�{�\u0007Y��ey��>.�r�j���kK{{K�y<V�\\\u00173�a\u00040Kt��5��h��0��Y�\u0017�)�\bxj/\u0019����\u001e\u0017�t�\u0000پG��E�[W�<57���\u001e��k���m��?�d��4ݗG��<Km�4�\u0018\u0001�K|\u001b��=���B񾝭xOH}E5o\u0013�?\u00165}G��[�",
+        "_VMGZ��T�m��h\u000b�+ss\u0011�PZ�D\u0005\u0000/��N��\u0004�O���\u0000\u0018��,Ϊ�\u0015����������`u\u0005�|Wxl��6f�E��kra��K�\u0002\u0004x\u001b��~\u000b����\\�|/�\\K�x��V�y�iV�?�\u0005��\u001c\u0010&�;!�8�p�����\u0007Q�\u0000",
+        "��^��\u0000�\u0016^0�\u0000��\u0000\u001f�5��\u0000�e�\u000f�^�\u0001�\u0000",
+        "��^��\u0000�\u0016^0�\u0000��\u0000\u001f�5��\u0000�e�\u000f�^�\u0006^��/\u000eE����wǥ�\u0012.�\u0000\u0017��Eܖ���Mm�u��\u001dY\u0018p�T��\u0015|+�O\u000f\\xc×\u0012�s̟A����o�!M�����!�[H�M�v�\u0012$h0���",
+        "\u0000��\u0000�}�M�\u0000\u000b/\u0018���\u000f�W�\u001a���\u0000���\u0000/h\u0000�\u0000�}�M�\u0000\u000b/\u0018���\u000f�W�\u001a���\u0000���\u0000/h\u0003�񷁼?i��\u0017]B5�:��\u001a��^o�<Uq\u0017�\u000e�w\"y��\u001aԖ�ǹF�g�He\\���̬\u0001����|)�\u0000\"���\u0000�\u0001��\u0000�ڀ7�\u0003������'����¿��\u0006|/�g�7�o�\u0011���:����ᗆ��\u0007�-�\u001f�/����C����\u000f�\rx;�\u001f���\u000e<;gyi���P�c�h�1^X�\\@\u0001��\u0000\u000b��j�\u000bT�o�����_�\u0014�\u001e_\u0010~�:���߂>\u0003������|U�u}��M�\u001b�G�5�\u0016��\u0003tO\u000b��\u0000\u0011a�9i�\u000b\u0001���~\u001a��M��u�\u000b�\u0017���\u0000\u001d���c�\u001e>\u0005x7�~��@Y���G���T��|7���\u0011|/�������~\u000b��~\u0017��u�\u001a�OF�\u000e��h�\u0016���xoC�\u000b��\u001e\u001c�?�O",
+        "��\u0010�]&��X�)��?^�\u0000�\u0002�?8�\u0000m=+��w�\u000f\u000e�n�_�/\u0012�O���/�Ұ|s���|\u0017��:�\u0000��_�Z|H�ß�\u001e\u001d�ޑ��s��z���c�/�x,t�\b%�Q��=�U\u0012��\u0001�-��u�c���c\u000f�v>\u0012�\u001f��!�@�9�\u0013�~�>5�4���\u000bh�\u0010?dO�\u0012��Z���F�),tu����\u0000\u001c|O�\u0018���N�n-<:�\u0013��\u0001��~ʗ�\u001a��|�\u0006�ma��o�+狵��|5������\u001f�\u0017[мM-��م��o\u0011�:կ�C������SMF�Ɨh���\u0001�?\b~\u0017x��?�����m[�q�<\u0019'��8~�^\u001d���e��?hc��|9���������=�H��?\u0014|K�xG���w�|a?�n|9k�O\b±�i>\u001d���4m:O\u0007�k@\u001ft~�߳�����>\u001c����G��\tx�Q�\u000b��&񝆵����\u0000",
+        "��\u0000\f�h�@�I�|smg�h^\u001f��n�|l��(��}�êh�'���X�u�^\u000630\u0007�?\r|\t�d�b���?\u001c|N�O���\u0017�\u0014SŞ\u0006���<3�hZ������\u0019��<Y�mOC�߉�&�-�\u0019��Ӻ\u000f��c�غ�q��|i\u001c��|�)��>����|?��\u0017�*�[�\u001b�\u001f�{�C�3xkƞ+�'��\u0000g��?\u0019��:_��Sx�A�\u001f\u0010~\u001c�7񞟧x�V��m:�R�|:�\u0016�\u001f���I\u001f��<D\u0001��\u0000�o�?�G�\u001f�?�\u0013�\f|\buO�?�G�\u0014S�?��&�/�Ǐu)�]/ō�\u001e\u000f��\u0010����\u0005x[��\u0002�y�Csc�M�'S�Tֵߌ>;�|Wma�\u001d#���\u0007���\u0003�׿���>>h^\u000b�֏�=i�o�\u000f\u0011k>\u0003���(�u?#@��~9�'���\u000eN�\u001f�fӼ/��\u0000��\u0004</{\u001c>\u001bo������&\u0010Xx",
+        "\u001dF�\u0002?��\r~'xk�\tW��9�🏵?\u001e�w�����\r�#��?�|77�?�\u001d�c��xG��f��\u0001���Ӵ�R�Z\u001bM\u0012��\u0013ZM$\u0011Z��\u000f#�GÏ����O�?\u0011���&�C�c\u000f�O�\u000f�`�ΰ>\u0011���߈>.|;�k�x�C���\u000f|\u0012լ���\u0000\u001fC�;R��m�R��\u001a~����\u0000\u0015!�O\u0000�~��:����: \u000f�o\u0004��7�Zη��\r�cX��MsC𮅪��_�n��O_�t\u000b�\u0012�\u001fў�Śf��\u001b�o\r��r�)f�\u0013O�\u0012�����}\u000e�g��m|>�� >\b�\u0000o�D<5�),\u0001�Ʋ�\fB�\u0001�J�#�\u0006q@\u001d}\u0000\u0014\u0000P\u0001@\u001f�\u001e/�/�G/���w�\u0003��a�-��?��\u0000�4�wD��u}�V�\u0014Z\u000f\u0017A�\u0013�W\u0016�0\u001e?ҼY>��_�~\u0011�������5?\u0014�n�Z��c��\u0007�}����\u0014|-�\u0000b��\u0000��Z\u0000��\u0000�\u0002�",
+        "\u0000���|K�R]�ٟ\u0012��_�?��\u000f��s�6|z��#{\r�íG�ơ�\u001dC�Uǃ�e���1�|e��P�׉�2Xåx�CЄ�\u0006�<9\u001e���>��v�?����|)�\u0000\"���\u0000�\u0001��\u0000�ڀ7�\u0003��\u001d<>����5O���\u0019�5\u000f\u0013|A�,t8�O�i2���\u001a�ӿ�!�l��Ț��O�γ�.���\u001e�L���\u0005��\u001b�4\u0003>�ǿ\u00054�}N�Q��t[\u000b]\u0017K�������^�E������+I�+��sN�\u001d���ho�f���t��k1^ZI�Ir�0�\u0000z�^\u000b\u0013�\u0014�x���A4i,3E�ZI\u0014�H��)\u0013N)$r#\u0007GRU��RA�\u0000I�\u0000\b4��;x��\u0000\u0007v����\u0003�\u0010i?�v���\u000e���[@\u0007� �����\u001d��>z�~%|\u001e�G������=C�密,�y��r}o�p�vV>\u000b�~(��>��\u0013M6��K\u0000�\u000e����rA3�\u001e���\t-�\u001a��J\u0001�h~3�c�_��&�G�|e�f��\u000f��4�%����s�J�i�_I\u0004���}ti�!��.�4�\u0016����\u000b�Y`G��[p\u000e���xW�ς�]�\u0013�_\u0013�m�x7��\u001e��O\u0016kK�I����x~�k�b�K\u001d#C�Ԯ^���i$��������\r��2��t��\u0018\u0019�E��\u0000���I-�|CdZ�8vy�\u0002�<��/1<Ə*��q]�\u0018\u0001S�\u0010�\u0012O\u001f��h�H��̞!�h�\u0010\u0016vI\u0006�Q�UX�)!B�q��\u0001��Ȳ$'Ǟ6\u0012��\u0011��Ď�\u001f��t���\u0011\u0012��V3���4\u0001�^\u0006��χ��k��:ޙ�9�:L~*ҭ$�k�����E,f�k��ݾ��Km/#�&w�\u001a�6^l�w1�\u0001�Y�sN�nuk-?�O��4\u000b���v����m�΋�ϥ��\u001av�\u00046/.�6��i\u001a�Vw�\u0015Ě^���\t\u0019����P\u0007��f�M�/���_\u0017X}��;\u000b/���N��e��,�YZ��\t���c�y#��tΑJ�Q�\u0003����",
+        "��N�_�\u0016�8�yt�}&I>(�E#�'�4/�JtXt�l-캿�H�\u0016�\u001d�������<�\u0003��\u0000�|)k�X��zg�/\u0018�:n�ko}��\u0016>#�������.-/,���$����\t\u0012k{�]�\u0017I#vFV�\u000b'�x��@\u0000I'\\�\u0000\u0001�$�7\u0000\u0001�'�\u0000s\u001e\b�s]�/�\u0017K�\u000f\u0019ۭυ�\u000b���X���\u00016�i ��3a!Kx�l�\u000b�X�Av�j\u0000�?�\u0006���o\u001d�\u0000����\u0000��\u0000�\r'�\u000e�;�\u0000�ݷ�\u0000+h\u0000�\u0000�\u001aO�\u001d�w�\u0000��o�V�\u0001�\u0000\b4��;x��\u0000\u0007v����\u000e_TѴ���t+o�^#���\u001f\u000fC�k\u001e\u001eO\u0015iw\u001a����p�1藺��\u0015�۬��nm\u000fZ�M���(5'�uH���.� \u000b^\u0016�\\��cÓ�\u0000�c�h<�\u0007H�ɃX�H!�4�w�C�1H�ݲ5,�P\u0000I�h\u0003{�\u0010i?�v���\u000e���[@\u0007� �����\u001d��\u000f�A��\u0000����;��\u0000�m\u0000\u001f��I�\u0000C���\u0000�wm�\u0000��\u0000�\u0011'��\r/�������o\u0003�j�o\u0017xR��Z.��x{�_A��4H<W��@ڎ�\u0006�gm<�\u0011�1Y�N�9�i#Gt\u0000����|)�\u0000\"���\u0000�\u0001��\u0000�ڀ7�\u0003���\u000f�ۡ|~�o��C�/�[\u0019�\u0018�����\u0003�B\u000f\b�a�?\u000b|S��\u0007�|P���\u0005��<m����%�o~�����e���K�_��'���h\u0001�x\u000f�R�G��\t�=���<E��l~\u0010���ǿ\r�|S���~\"����?\tu߃~/���\u0016�\u0015�\u0019�_��O�^(�u\u000f",
+        "��2xcP�~�.�os�\u001f\u0013x_B�<3\u0000\u0007տ\u0004�c�\u000f�߅_",
+        "'�ߋ�F�\u0000\f~\u001d�7��k�i>\u0019�SY��g��<9k��&_\u001f�/��{k�Cq=��o�)�R��&�\u000fN�\u0000��R�\u0000�\u000bƟ�ǅ���\u0003�\u0012�K��/\u001a�\u001e\u0015�\u0000殀\u000f�Ku/�\u0010�i�\u0000|xW�\u0000��\u0000�'��\u0000췣~�W?",
+        "�|U�x����\t�Ž7�W����\u0017�m~,|*�g�=+���\u0000\u000b��g��/�n-�2�$�\u001f�=GĐ���\\�\u000fu�\u0004æ�����zP\u0007��S�\t�����\u001e�|u�x��O�o�����M}�[�M�8�]�x�G���)�V����-̿\u0015�+�\u0000\u0006���4�\u0000\b���W�&�<)q��u�\u001b\r'�\u0011��\rφ��Eǁ�\u0000g\u001f�\u0003���&����\u001f\u000b~ϗ�Ǆ�\rxK��\u001f}7�^\u0005�o�\u0017●�\u0017/��\u0012��o�^;���O�_�\u0012k�\u001a���\u001e\u001d�v����E����\u0000����'\u001d���?\b��\u001b�l�9����2���\u000f\t�.��\u0001�\u001d>?\r��-{�f��O",
+        "�^.�W��\u0003�V\u001e\u000fִ�\u0000�gE׼>\u0012M5��u-K�\u000f�<o�\u001b�\u0000�<K�",
+        "�x��O�G�/x�U�A��k�\u0013��z�\u0000��\u001b�G@��M�_�1���o��\u0003Wö�\u0017\u001fT���7���{��\bm�!�/�'�\u0017ıh�\u0019�N�0����\u0001��\u0016�\u0000�ox�E��u�x�Ǻ�\u0000�O\u0015h\u0017�\f��\u001e|H��o\t_|N�|S����?Ǜ}�o�\u0017㲯�)�#����_�$r�<\u001e| �\u0017��3\u001d·���8\u0007���\u0007I񧃼9qo�cA�\u0006����Ý\u000bU����\u000e���>��{RӼG��5��p�\b����\u0000\u0014/%����\u0000��Ec�ˣ�����:��`\u001e}��\u0000�=�'�.���o��\u0015��7�ƙ�9ux���\u000f�~&�5�q�\u000f\f��k�/��~��[�;��_���\u001c\u001a�ύ,��\u0006���\u0004�h�����P\u0007�w����\u000f����\u0000���.<gc��W���\bx��~\u0017��O\u0004_M�6_��Z�\u00167�\u00115�]'Ú?�.���3g;���\u001cizV��ƥt�ݠ\u0007�鿰?�4x|7g�\\�a�Ҽ+���\u001d#F�K�}\u0016�c�hz\u0017��\u001f�4�U��\u0007�`��Ѿ\u001a|\u001eԼ\u0015�D��\u0016�/�O�Z>���.���R8\u0006m��\u000bk\"][x��\u001f\u0018<_b��",
+        " ���Þ\u0000�%7_",
+        "<\u0011�\u0003��W�5ư�����-��Ǒ\\K���5�o�\u0005Ũ�j�Ɠ/�n�=�\u0000���o\u0015|\u000f�\u001e��\u0019�V���\u0014���>��j^\u0016����2�?�]���7=������<\u0011M�Egow�Z�i�\u0012Ҭ|1����%c�O\u0010�@��@>��\u0017��|\u000b�(�\u0015����<'��X��_\r\u0018.R�G��n!3��\u0019�S*\t#3C\u0014�\u0018\u0019\"G܊\u0001��[�Ѕ�O��¿���\u0001�\u0000\tn��\u0000B\u0017�?�",
+        "�\u0000�W@\u0007�%���\b^4�\u0000�<+�\u0000�]\u0000\u001f��_�!x�����\u00005t\u0001��Ú���W��ő�kK��A�U�\u0002]�}<+��K�)�\u001b��E�t�\u0010^��/�WI�=��I�lo��\u0018�h�4�\u000e�kt�N�\u001a�\u0007��W�:�^\u0017��K�\u0017�,Z\u000e�\u001a�",
+        "xcɝSO�Q4^o�\"�ʐ\u0000���G&�\u001b�Fܪ\u0001��\u0000\tn��\u0000B\u0017�?�",
+        "�\u0000�W@\u0007�%���\b^4�\u0000�<+�\u0000�]\u0000\u001f��_�!x�����\u00005t\u0000�[�Ѕ�O��¿���\u0007Η^\u0017�>����\u0003�v�e�j��C�\u000e��]\u0006�",
+        "�zU�<'��\u0013�2��\u000f��|MԬu�\u001e_\u0012x�ž/�����>'��\u0000�SX_�\u001a։�xKG��\u0007����|)�\u0000\"���\u0000�\u0001��\u0000�ڀ7�\u0003�4_�\u001f\r�#�\u0013�g��c��\u0010�/����\f�'p���5_���:��\u0006�\u0016�\u001dԞ\u001cѯ�u=F#\"J�R5�j��1@\f��\u0000l/٪��H�4ϊ�\u001e�o�x��\u000f�4�𵇈<Wyu�|&�,>\u000e��tt�\u0000\r�\u001a��o�O��$����\u0019x���\u001f\u0003xrM_D�U�\u001d����\\_�u\u000f�\u0000h���\u0014�W�x'�^>�<C�]\"�XԾ�\r��em��\u001e\u001d�b�5�\u0004�ڞ�e�|A��<Osi�\u0013x������O\u000e����C֯�5K�;I@=��",
+        "\u0000(\u0003�O�_\u001b>!|\u0015���\u0017A���~\r|m���3�\u0001����7�\u001a�����\u001a<c�W�\u001an�����i7�χz���LW\u0003P������keu\u0000�����\u0015/���'�_�;Z����\u001f\u0012�c��\u001f��\u0013H�᫦ӼI�c�����u�!~�ڟ�t�\u0000�f�\u0000��X��to�^66\u0012�i\u001f��$h:|�Ŧ-��p\u0001�\u000f���\u0000\u0005>����o�_\u001d~\u0018|^\u001az�A�>~Ş",
+        "���/��\u0018��\u0013g�\u000e|I�?��\f�=�%�x�>!]x���\u000e���>7�~\u001aj�\r\u0017�\u001a����\u0017h���i6\u0000\u001d����^\r\u001f\u000f�\u0016�X�K���W�cǞ\u001e���*��\u0004~\f�;Þ,�>\u0011|\u001b���o��S�\u000f\u0010�c��zF��kV\u0016�\u0010�Α����\u001f\u0011>*_�W�\r�\u001dީ6���(\u0003̾\u001f�Y��>-~�\u001aG�/�\u001b5�_\u000e�\u0000k_��\u0000�\u0007�~8�G�n���=�I�O�K�u���O�\u001f���\u0019xw�C��X����Ė~ \u001e\u0011�u�Cᾅ�xe�%��\u0011�dӵ\u001b�\u000fџ�7���?��\u000f�]?[�ߏ�#�E���[��\u0006�\u000f|)Ѵ�s�7��\u0018i�\u0011�'�u�?B�Ğ ���4m7@�g��C�?\u0011x��\u001e/🃴\r;Oݫ���k�\u0018��\u000f��\u001b~\u001ci^\u001e�\u001d�\u0014����~4�٨x�G�s�o\u0014�6>*���\t�����+�-�-e��k�\r��U�ƫ,W����A\u0005��̷�r]\u0000Ga�_��ڽ��.�O\u0017��\u001e<�5\r\u001f����\u0000�_\u0015u��ze����������\t��_�w���]\u0003P����%��{�\u001d^����W0N�8\u0006���j����Zw�-_��\u0018�\u0011��_\u0004�{�_�\u001f\u0016�-KU[k\u000f\u0000x��Uׂ�|\u0011�x���\u0010X6�}�\u000b�V0�\f�Z^jS��7ַ\u001a>�\u0016�\u0001�7�φ�a\u0016��0�F�7�Y>\u0012Eu�)�$C�I�#/�\u0007�Cj��[k�\u001d��#�Q0��c̠\u000f8�G�o�9x3¾\u0003�ǈ�*hv^\u0013����Z>\u0010�`��5K+�����\u0016�}�KWm'K���\ft]?��\u001c��'�O\u0016Ǣx3�\t��#�:ޘ���N\u0001�x�\u0000�����ۭ�\u001b�?�|\u0019\u001f�t\u001f\u0007x�]���M�����\u0000\u001f��O��\u0010դ��?�Ii�x�5��/\u0004��mB��/��z���\u0000\u001d���\u0000�\u0010�\u0013�\u0000b���\u0000��e@\u001du\u0000\u0014\u0000P\u0001@\u001eS��T�ws��\u0013|\u001b��~�s�CO�y�x�P�U�ϝ�XxO̷҆�}\fj��@�ڦ�\u0012Cq,Wr%���[�����\u001d����Q����\u001f��-h\u0003��\u0002�",
+        "\u0000(\u0003��_��֥��I�3m�ȟ\u0012t��~/�L�\u001d��<C�����3Mѭ��S�Z֧�Z����\u001a�񧃬�Y�\u0000\b���I�+�\u0016xj�đ�wZ�\r�\u0007����|)�\u0000\"���\u0000�\u0001��\u0000�ڀ7�\u0003�\u001f����\u001f���\u001d��<?�W��\u0007�#|+O�z\u001f�?\u001cxg�\u001e��\u0002���:�ſ���.���\u001b�^�K��ҭ~\u0002�>\u0007�/����>%x�L��t[h��W\u0000��e� ?���\u001f\u0007k�\u0000��ğ�D\"�ŏ\u0005G��\u001f~�\u001f\u0015�!x�\u0015_ď\u0017�\u0003��G�4��|}�\rkK�o�$�}e�[x�}gT�<Ia�_���/m�[�(\u0002������7�_�������]'�\u0007�����7��ٷ�����\u0003�w���}\u000f�\u001e-��9�}wŞ+�����|W�^��|\t�g�u8��5�wJ�\u000e��O�3\u000b�N-#�v�\u001f�\u001f���\u0000����� |w�\u0000��\u0000\u001f���\u0000����� |w�\u0000��\u0000\u001f���\u0000����� |w�\u0000��\u0000|9�\\|\t���e\u001f�\u0001t�\u001e4�/�Mg�\u0005��~\u001c|dѾ\u0012x��ڏ�\r~<�|S�/�,�\b�Ñ�\u0013i�߆lmum\r�I��w��j�\u0016�sl&���\u000f1�w�\u0003��Y���\u0000\u0004����_\u0012x��~\b���\u0015w��?���\u0000\u0007<e�i�\u0018�\u001f��\u000b�V��v���d�[�o�?Ǟ\u000e��\"�f{]\u0017[[�A�-1����~�\u0000\u0005���4e�<^\r�\u0000������J.?࡟�_�w�y�\u0000�=�ǯ�T?c���h��\u0000�O�\u0013�\u0000�\u001d�?��",
+        "\u001b���\u001e7�_�'�����7�g���R\\x\u000f⟇~\u0016�f�\u001b�\u0007�\u001e>���#|H�>\u001a�P���o�CxWQ��t�\u0000��\u0003��g��^)��\u0000���3�S�^7�g�ji�?\u0000O\u0015դ\u001ah\u0007{q�\u0003X�|\u0011���\u000f_�w���\u000b�ڇ�����h\u000b߈�+�\u0015�=g�:-����߱���/ċis�Zx�^��߲K��W�m��!��~��\u001e��\u000f\u000b^Eᄗ_\u0000�\u001b���+�|r��\u0000g��\u0000\b�#j�\u0000\u0007~=~�_\u0010�G㿆^+�g�/��\u0015>\u001d�\u001a��\u001e����\u001f\u0001|F�y���\f��{�\u001e(�ǉ^���@�����\u000e��D��es\u000e�y�j�\u001e'��KV��w���&����?��[��@���wo�/�S_xOL�����\u0002/�>6�&�����\u001f\u0010j~\u0013���x'�\u000f���\u0005x?ƾ\u0006ԭ�)�=K@ռm�\u001bo\u0015���\u001cφ�a�\u0012�o�~\u0006���]3O��_\u0010�Y�/\u000e�0�?f\u001f�_D�1�=7�\u001a7�,��\u001bᯃ-h�|=]C[�D�(��l|Y��#mG]�0|$�Q:��`\u0005��\u0000�z�\u0013[�����\u0000\u001b>\"|F�~,\\|5�h\u001f\u000b���t�����?\u0011�>��-k���:F��hw�\u0013�w�<A��\u0000�\u000b���\u0017�~��R��A�����\u0000\tE֟���C�H\u0007a���X�Ï\u0006�_வ�g�\u001e7�m���^��@xk�\u0007�~\r|N�����\u0011����\u0011f�_��\u001a��м\u0000�\u0000����e�F���\u0018O�\u001a_�o�Ћo\u000f\\\u0000r�\u0018���+�[�G�>\u001cY�њ\t���3M���Y���~-�}w��4-?D���\u000e�\u001f\u001b�h�+�WI\u0017>4��|A���.�F��!�c��s\u0014^\u0010\t��u\u001f\u0018?c�+����e�|[��_\u000e�\u001f��������~\u001c�K�_��b����⩴T�;����:�V��o�\u001f\u0005����_��^!�Iմ�_\u0010Yx���^�\u0015���-`\u000f��\u0005��2���\u000b����<�\u0016�\u0013���[�\u001bƓ��4:=�r�\u0004ֺ\u0005Ŵ���^)m�\t\u0010��,��v\u0000�?�5��\u0000��ſ�@���\u0000��\u0000?�5��\u0000��ſ�@���\u0000��\u0000?�5��\u0000��ſ�@���\u0000��\u0000?�5��\u0000��ſ�@���\u0000��\u0000��Ş\u0010�&��E��\u0000\u001d��A��\u000f�\u000b���|7��{���\u0000\t=�6�|\u001d⋟\u0010��\u0019<]o���c��\u0017J�-2_�2���\b�Մ�o{j\u0001�\u0007�<c���\r��~)g�@��v���6���zu�1�x<=$\u0013FH%&�I\"�p�!V`\r�\u0000�Mt���o�\u0010>;�\u0000�n�\u000f�Mt���o�\u0010>;�\u0000�n�\u000f�Mt���o�\u0010>;�\u0000�n�\u000f�Mt���o�\u0010>;�\u0000�n�>*�\u0017�+����{�Lj^3���_�?\u0012~\u0011h^\t��\u000f�c�n?�|Yq��\\���^*�g��S�ؿ�o�\u001d�\u001bw�?ï�\u0011�k�Y��_{�>�e+�����|)�\u0000\"���\u0000�\u0001��\u0000�ڀ7�\u0003��\u0017��\u0016����-Z\u0000�(\u0000�\u0002�",
+        "\u0000(\u0003��O����n���\u0000��(\u0003��\u0002�",
+        "\u0000(\u0000�\u000e\u0013���:/�S�\u0000���\u0000wt\u0000P\u0001@\u0005\u0000\u0014\u0001��?�\u0000�\u000f�?�(�o�\u0000L�T\u0001�P\u0001@\u0005\u0000\u0014\u0001��\u000f�\u0000��\bԿ�j\u0000����\u0014|-�\u0000b��\u0000��Z\u0000��\u0000�\u0002�",
+        "\u0000�}�\u0000\"'��R�\u001f���h\u0003����|)�\u0000\"���\u0000�\u0001��\u0000�ڀ7�\u0003�|-�ۭF_\u0017\\��\u0013�H|s��&�6�\u001d���\u001f:��}6���L�\u001c\f(%�\u0000u����\u0000����\t���\u00002�\u0000�\u001f�\u0000C��\u0000�'ß���\u0001�\u0000\b}�\u0000�\u000f�7�\u0000��\u000e�/@\u0007�!��\u0000�>x��\u0000\u0002|9�\u0000̽\u0000\u001f����\u0000����\t���\u00002�\u0001�xG��Wn�5�_\u0014x�\u001f.��@\u0011�[��_��o7Ò��t�\u001b��\u0018Fnf��\u00140��\u0000:�C��\u0000�|��\u0004�s�\u0000�z\u0000?�\u000f��\u0000����\u0000�\u0013���e�\u0000�\u0000�>�\u0000���\u001b�\u0000�O�?���\u0003�\u0010��\u0000�\u001f<o�\u0000�>\u001c�\u0000�^�\u000f�C��\u0000�|��\u0004�s�\u0000�z\u0000�>\u001fxZ���:L��?\u0017�+�C\u0016���+o\u001e�R�\u000f�'��ģyS#����m]��\u001d��!��\u0000�>x��\u0000\u0002|9�\u0000̽\u0000\u001f����\u0000����\t���\u00002�\u0000�\u001f�\u0000C��\u0000�'ß���\u0001�\u0000\b}�\u0000�\u000f�7�\u0000��\u000e�/@\u0007�!��\u0000�>x��\u0000\u0002|9�\u0000̽\u0000s\u001e\b��ǂ�#p�5���\u0002e����\u0005��˥Z8��M�ɥ\u0010�\u000f�\u0010�id\b�\u001eWl�\u0000t�\u0000����\u0000����\t���\u00002�\u0000�\u001f�\u0000C��\u0000�'ß���\u0001�\u0000\b}�\u0000�\u000f�7�\u0000��\u000e�/@\u0007�!��\u0000�>x��\u0000\u0002|9�\u0000̽\u0000e�\u0011��E��>9�4�A�R\\xx� [II�@�\u0019G(�mm�������\u0000��_\t���\u000eL�7�ˠ��\b ����\u0010�}�\b�\u0012xjI\u0004Q��1$�8E\u001b��,�\u001b�����\u0000����\t���\u00002�\u0000�\u001f�\u0000C��\u0000�'ß���\u0001�\u0000\b}�\u0000�\u000f�7�\u0000��\u000e�/@\u0007�!��\u0000�>x��\u0000\u0002|9�\u0000̽\u0000s>5����|[p�5����zf����\r��ť]9��C��&0L\u0017˔E<2\u0018لr��:�����|)�\u0000\"���\u0000�\u0001��\u0000�ڀ7�\u0003��/�i4�|]j�\u0018�N�\u0007�|P�\u0000jҬ-.-\u000e��l\u0012Kn��\u001f01�",
+        "�N~P\u000e��\u0013y��H���",
+        "l?�m@\u0007�&�Б��\u0014��ڀ\u000f�M��\u0000�#�_�)��\u0000�\u0000\u001f���\u0000BG���Sa�\u0000�j\u0000?�7����\u001d���\u0000��\u0001�xG�\u0012��Wq�\u0007x��w��m?�o�Y<jn|g�ܘ\u0018���Ole�5�`�\\�*+:�v\u0000��\u0000�7����\u001d���\u0000��\u0000�o7�\t\u001e:�\u0000�M��\u0000-�\u0000�\u0000��o�\u0012<u�\u0000��\u000f�[P\u0001�\u0000\t���$x��\u0000\u00056\u001f���\u0003�\u0013y��H���",
+        "l?�m@\u001co��\u0000\u0017�i�\u001d&�xC�7a\u000e���M6�Ky7ꗯ��}N6;7l|��Ն\u0006\u0006�\u000e��\u0013y��H���",
+        "l?�m@\u0007�&�Б��\u0014��ڀ\u000f�M��\u0000�#�_�)��\u0000�\u0000\u001f���\u0000BG���Sa�\u0000�j\u0000?�7����\u001d���\u0000��\u0001�x'�\u0012�x3�6���3�\u0016�\u0018� \u00176�e���\u0002-*�<�wmM\u0019��o�\u0013�#4l���E\u0000t�\u0000���\u0000BG���Sa�\u0000�j\u0000?�7����\u001d���\u0000��\u0000�o7�\t\u001e:�\u0000�M��\u0000-�\u0000�\u0000��o�\u0012<u�\u0000��\u000f�[P\u0006^��I��ux�\u0000�\u000b�~f�~�d�]��\u001e�IW|�5F!\u0013;��b\u0014\u0012\u0001�(\u0002���e4\u001e\u0018��#��5�C��\u0011\t���^\t��>�<�]�4f�Lo��!d`J�q@\u001b����\u0000BG���Sa�\u0000�j\u0000?�7����\u001d���\u0000��\u0000�o7�\t\u001e:�\u0000�M��\u0000-�\u0000�\u0000��o�\u0012<u�\u0000��\u000f�[P\u00073�_\u0018Ks��\u0016۟\u0007x��\\xg^���i�Q�[�t��3�:jr:A\u0010o2WX�e�X�1\u001bX\u0003����|)�\u0000\"���\u0000�\u0001��\u0000�ڀ7�\u0003��\u0017��\u0016����-Z\u0000�(\u0000�\u0002�",
+        "\u0000(\u0003��O����n���\u0000��(\u0003��\u0002�",
+        "\u0000(\u0000�\u000e\u0013���:/�S�\u0000���\u0000wt\u0000P\u0001@\u0005\u0000\u0014\u0001��?�\u0000�\u000f�?�(�o�\u0000L�T\u0001�P\u0001@\u0005\u0000\u0014\u0001��\u000f�\u0000��\bԿ�j\u0000����\u0014|-�\u0000b��\u0000��Z\u0000��\u0000�\u0002�",
+        "\u0000�}�\u0000\"'��R�\u001f���h\u0003����|)�\u0000\"���\u0000�\u0001��\u0000�ڀ7�\u0003��%�;S\u0017]\\\\��9[�^(R��<U���o�\b����+Enyu�;\f\u0002�(�\u000e��\u0010�\u001f�|[�\u0000����\u0000���\u0003�\u0010�\u001f�|[�\u0000����\u0000���\u0003�\u0010�\u001f�|[�\u0000����\u0000���\u0003�\u0010�\u001f�|[�\u0000����\u0000���\u0003�\u0010�\u001f�|[�\u0000����\u0000���\u000e[��\u0010�g�n���P��)�� C�\u001a[&�o\u001a���2c��\u0004Q��\u001cJ���g���us$�2�,�\u001dO�!Z?�����\u0000\u000b�\u001d�\u0000�I@\u0007�!Z?�����\u0000\u000b�\u001d�\u0000�I@\u0007�!Z?�����\u0000\u000b�\u001d�\u0000�I@\u0007�!Z?�����\u0000\u000b�\u001d�\u0000�I@\u0007�!Z?�����\u0000\u000b�\u001d�\u0000�I@\u001c_��\tiW^\u000f�'�����\u001dGr�x��Vp����\r�֚�\u0016��(-�ěܴ���ـ;O�B����o�\u0017�;�\u0000撀\u000f�B����o�\u0017�;�\u0000撀\u000f�B����o�\u0017�;�\u0000撀\u000f�B����o�\u0017�;�\u0000撀\u000f�B����o�\u0017�;�\u0000撀9o\u0003xCI��W��$��B�?��?3�\u001e7�",
+        "��6��\u001b[_\u0010Cmm\u0010f\"8-�\bS\u0011�\u001aF��\u0001��\u0000�\u0015��\u0000������\u00004�\u0000�\u0015��\u0000������\u00004�\u0000�\u0015��\u0000������\u00004�\u0000�\u0015��\u0000������\u00004�\u0001��x7H�E�$[�\u0015\u0016�K�\u001dD�;񼱖KIX\u0007�_\u0011<R!#�Dx�|����\u0000��O\u0007i3�_�s=�U��4y]a�ύ��\r&�l�\"�\u000f\u0010�\u00041�HHa�8�\\$h�\u0015T\u0003�\u0010�\u001f�|[�\u0000����\u0000���\u0003�\u0010�\u001f�|[�\u0000����\u0000���\u0003�\u0010�\u001f�|[�\u0000����\u0000���\u0003�\u0010�\u001f�|[�\u0000����\u0000���\u000e_��\u0010�m�\u0017�����P�[�__�\u0016\u001b���\u0006x���U����\u0013[\\�Y@�\u000b���d�sF�%\u0000����|)�\u0000\"���\u0000�\u0001��\u0000�ڀ7�\u0003��+�k6rx�\u000b/\bk\u001a�\u0003�^(ayg�xj�\u0016c}�\b�-j��\u0015�$�\u0001Ha�H\"�:��I<G�\u0000D��_�7�_�\u00004�\u0000�I�?�'�\"�\u0000����\u0000���\u0003�\u0012O\u0011�\u0000�=�\u0017�\r�\u0017�\u0000�%\u0000\u001f�x����o��i(\u0000�\u0000����O|E�\u0000�\u0005�\u0000�I@\u001c��<A�Ťݬ^\u0004׮T����\u0019\"�<\"��M�M~Y�ȟ�\u00119��W{Y]T�$����Kn�K(\u0007Q�\u0000\t'��\u0000����\u0000\u0006�\u000b�\u0000撀\u000f�I<G�\u0000D��_�7�_�\u00004�\u0000�I�?�'�\"�\u0000����\u0000���\u0003�\u0012O\u0011�\u0000�=�\u0017�\r�\u0017�\u0000�%\u0000\u001f�x����o��i(\u0003��{���xCI�\u000f\u0003뷱)�v�é�N(�ݪ�1ڗZ�3��&6�\u0012吔܅]�;?�I<G�\u0000D��_�7�_�\u00004�\u0000�I�?�'�\"�\u0000����\u0000���\u0003�\u0012O\u0011�\u0000�=�\u0017�\r�\u0017�\u0000�%\u0000\u001f�x����o��i(\u0000�\u0000����O|E�\u0000�\u0005�\u0000�I@\u001c��<A���\bC\u000f�5븢�\u001cWQj�\u0011�+��J�T��;�\u0010Cp�̠H�<QL��K\u001a8d�\u000e��\u0012O\u0011�\u0000�=�\u0017�\r�\u0017�\u0000�%\u0000\u001f�x����o��i(\u0000�\u0000����O|E�\u0000�\u0005�\u0000�I@\u0007�$�#�\u0000�{�/�\u001b�/�\u0000�J\u0000��<E�\u0017�ut\u0000x�$m/PV��o\u00072D�i(i\u0019c�\u0013�U\u0001,�4w aU��@\u0015|+�\u001f\u0010E�\r�\u001f������tt��=W�\t\u001c�}��Ѥ�!�eIT\u0007U�8�U`$Epʠ\u001b��x����o��i(\u0000�\u0000����O|E�\u0000�\u0005�\u0000�I@\u0007�$�#�\u0000�{�/�\u001b�/�\u0000�J\u0000?�$�\u001f�\u0013�\u0011�����P\u00071�o\u0010k�x3����]z�)|1��-�ڧ����7Ү��%Ko\u0010Mp�¤��\u00042�ʤE\u0013�T`\u000f����|)�\u0000\"���\u0000�\u0001��\u0000�ڀ7�\u0003��\u0017��\u0016����-Z\u0000�(\u0000�\u0002�",
+        "\u0000(\u0003��O����n���\u0000��(\u0003��\u0002�",
+        "\u0000(\u0000�\u000e\u0013���:/�S�\u0000���\u0000wt\u0000P\u0001@\u0005\u0000\u0014\u0001��?�\u0000�\u000f�?�(�o�\u0000L�T\u0001�P\u0001@\u0005\u0000\u0014\u0001��\u000f�\u0000��\bԿ�j\u0000����\u0014|-�\u0000b��\u0000��Z\u0000��\u0000�\u0002�",
+        "\u0000�}�\u0000\"'��R�\u001f���h\u0003����|)�\u0000\"���\u0000�\u0001��\u0000�ڀ7�\u0003��/�\fkr���Tң��o\u001c��33Ow\u0019(��U�\r�I�����z\u0005\u0000��Zx\u001f��\u0010�\u0000�V��\u0000��\u0000´�?�\u0000!�\u0000��G�\u0000��\u0000�\u0000�i��\u0000C�\u0000�Z��\u0000'P\u0001�\u0000",
+        "���\u0000�\u0000��\u0000\u0002�\u001f�N�\u0003�\u0015���\u0000�\u0001\u000f�\u0005j?��@\u001cǄ~\u001e�:�J���D�I\u0013��6�V77�\u0010Yx�_���\u000bz�\u0011[A\f@���\u0002��]�\u0003��\u0000�i��\u0000C�\u0000�Z��\u0000'P\u0001�\u0000",
+        "���\u0000�\u0000��\u0000\u0002�\u001f�N�\u0003�\u0015���\u0000�\u0001\u000f�\u0005j?��@\u0007�+O\u0003�\u0000�\u0002\u001f�",
+        "��:�\u000f�V�\u0007�\u0000�\u0004?�\u0015��\u0000�u\u0000q�\u000f�\u001f�>��:M�֋\u0014��u\r�\u001b��-���'\tx��Ɗ�*�nO',\u0001�´�?�\u0000!�\u0000��G�\u0000��\u0000�\u0000�i��\u0000C�\u0000�Z��\u0000'P\u0001�\u0000",
+        "���\u0000�\u0000��\u0000\u0002�\u001f�N�\u0003�\u0015���\u0000�\u0001\u000f�\u0005j?��@\u0007�+O\u0003�\u0000�\u0002\u001f�",
+        "��:�9�\u0004�=�u�<#ys�E-�߆4\u000b��M��2O>�k,�\u0010������B���\u0015@\u0018P\u000e��\u0015���\u0000�\u0001\u000f�\u0005j?��@\u0007�+O\u0003�\u0000�\u0002\u001f�",
+        "��:�\u000f�V�\u0007�\u0000�\u0004?�\u0015��\u0000�u\u0000\u001f�<\u000f�\u0000@\b�+Q�\u0000��\u0000���\u001cx*\u001d\u0017W�=",
+        "$�-/P�7\u0017Z�U��VV\u0019�#!�<�=A�@\u0015|-����>\u0018����\u001cROq����!��\u0005�O��G!oUAgb�UQ�",
+        "\u0000o´�?�\u0000!�\u0000��G�\u0000��\u0000�\u0000�i��\u0000C�\u0000�Z��\u0000'P\u0001�\u0000",
+        "���\u0000�\u0000��\u0000\u0002�\u001f�N�\u0003�\u0015���\u0000�\u0001\u000f�\u0005j?��@\u001cύ~\u001e�:���-���\"����:�ͼ�����J��)\u0000{�BREV\u0001���\f�\u001c0\u0007����|)�\u0000\"���\u0000�\u0001��\u0000�ڀ7�\u0003�\u0017���\u0000\b.��-\u0003�\u0011_�O+ƞ$��۟a��ߺ��?�.����8�v6��`\t���\u0000�D�\u0000˟�\u0000��\u0000?��\u0000�D�\u0000˟�\u0000��\u0000?��\u0000�D�\u0000˟�\u0000��\u0000?��\u0000�D�\u0000˟�\u0000��\u0000?��\u0000�D�\u0000˟�\u0000��\u0000�пi?�)�?�\u000b�G����S�?�#�v�\u0000m��S�|���Rg�o�7��y�W��ſ�P\r��j��?���\u0000�z�\u000f�j��?���\u0000�z�\u000f�j��?���\u0000�z�\u000f�j��?���\u0000�z�\u000f�j��?���\u0000�z�0</�G�?�X�\u001f���������\u0012/#��E������9�l������n�v�\u0000��\u0000���\u0000�\u0013�\u0000.�\u0000\u0007�\u0000�\u0000���\u0000�\u0013�\u0000.�\u0000\u0007�\u0000�\u0000���\u0000�\u0013�\u0000.�\u0000\u0007�\u0000�\u0000���\u0000�\u0013�\u0000.�\u0000\u0007�\u0000�\u0000���\u0000�\u0013�\u0000.�\u0000\u0007�\u0003\u001fÿ���'��-\u001b�\u0010��dh�f����H���}��\u000b_?����|�3��d��m�\u001f\u001b�\u0003c�\u001a���O���\u0000�\u001e�\u0003�\u001a���O���\u0000�\u001e�\u0003�\u001a���O���\u0000�\u001e�\u0003�\u001a���O���\u0000�\u001e�",
+        "z��;��>���\u0010�+�w6�o�$����C$^f��\u0005߳~���v1�g*\u0001\u000e��Leh�N��\u0000\bW������y�\u0000�y^w��b��|��\u0019<�3����}���ln�\r/�j��?���\u0000�z�\u000f�j��?���\u0000�z�\u000f�j��?���\u0000�z�\u000f�j��?���\u0000�z�2<A�I�\u0000nh:ދ�\u0000\b_���KK�O�$~��\u0000�,�����(|�'��<�6/3n�13��?��\u000fPK\u0003\u0004\u0014\u0000\u0006\u0000\b\u0000\u0000\u0000!\u0000�|�WM\u0001\u0000\u0000{\u0002\u0000\u0000\u0011\u0000\b\u0001docProps/core.xml �\u0004\u0001(�\u0000\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000��]K�0\u0018��\u0005�C�}�~8?Bہʮ\u001c",
+        "n(ޅ��\u0016l��D��{�v��)x���>9�%�|'��\u0013�\u0015Z\u0015(�b\u0014�b�\u000b�)�z�\b�Q`\u001dU��ZA��`Ѽ<?�YC�6�dt\u0003�\t��')KXS��s\r�ز-Hj#�P^����������w�\u0001���%��(���\u000e\u00186#\u0011\u001d�������=�3\f5HP��$J�ׁ��ׁ^�8�p��w:ĝ�9\u001b�ѽ�b4�m\u001b�Y\u001f��O���ṯ\u001a",
+        "��\u0001*s�\b3@�6�R0���\\�XU�A��`r<qt۬�uK��J\u0000���5tj�/�ņ�\u0007>*\u0019�\u001d����~�@e\u001a'Wa|\u0015��*N�,&��[���|\u0017}���4�$f$���bB<\u0002�\u001c�|��\u000b\u0000\u0000��\u0003\u0000PK\u0003\u0004\u0014\u0000\u0006\u0000\b\u0000\u0000\u0000!\u0000}VF��\u0001\u0000\u0000\u001b\u0003\u0000\u0000\u0010\u0000\b\u0001docProps/app.xml �\u0004\u0001(�\u0000\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000��Mo�0\f��\u0003�\u001f\f�\u001b9�:\f��bH7��b\u0001�vgN�c��$�����W����vڍ\u001f/^>���\u000f�+zLd���rQ�\u0002�\t���J<�~\\|\u0015\u00051�\u001a\\�X�#���\u001f?�M",
+        "\u0011\u0013[�\"[x�D�\u001cWR�i�\u0003Z�ϝ&�\u000e8�i/C�X�7�<w�Y^��\u0017�\u0007F_c}\u0011O�br\\����u0\u0003\u001f=�1\u0003k�-Fg\rp~���&\u0005",
+        "\r\u0017�`��@m��`�)9��̹E�,\u001fu��<U[\u0003\u000e�y�n�\u0011*�^P�\b��6`\u0013i��G�!\u0015d_�\u0002/E�\u001b\b\u0007�J��,x΀�lJ��E���D-\"��Y0\u0015�p�����^��\u001c�\u000b\u0007�\t$7�\u0011w�\u001d��f\u0003��A��\u0013�\f\u0013\u001d���s���y�\u001f���E���8Ew�?�C܅\u001b`|[�yQm[HX�\u001f8��TP�y��\r&�\u0016�\u001e�7�ߍ�\f\u001e�[�˫E����:�)�~��\u0015\u0000\u0000��\u0003\u0000PK\u0001\u0002-\u0000\u0014\u0000\u0006\u0000\b\u0000\u0000\u0000!\u0000;H�@i\u0001\u0000\u0000�\u0004\u0000\u0000\u0013\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000[Content_Types].xmlPK\u0001\u0002-\u0000\u0014\u0000\u0006\u0000\b\u0000\u0000\u0000!\u0000}�T�\u0007\u0001\u0000\u0000�\u0002\u0000\u0000\u000b\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000�\u0003\u0000\u0000_rels/.relsPK\u0001\u0002-\u0000\u0014\u0000\u0006\u0000\b\u0000\u0000\u0000!\u0000���n�\u0000\u0000\u0000�\u0002\u0000\u0000\u001a\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000�\u0006\u0000\u0000xl/_rels/workbook.xml.relsPK\u0001\u0002-\u0000\u0014\u0000\u0006\u0000\b\u0000\u0000\u0000!\u0000l߃��\u0002\u0000\u0000C\u0005\u0000\u0000\u000f\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\r\t\u0000\u0000xl/workbook.xmlPK\u0001\u0002-\u0000\u0014\u0000\u0006\u0000\b\u0000\u0000\u0000!\u0000D�)w\u0003\u0002\u0000\u0000�\u0003\u0000\u0000\u0014\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000�\u000b\u0000\u0000xl/sharedStrings.xmlPK\u0001\u0002-\u0000\u0014\u0000\u0006\u0000\b\u0000\u0000\u0000!\u0000�\u001b\u0014�\u0006\u0000\u0000�\u001a\u0000\u0000\u0013\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000�\r\u0000\u0000xl/theme/theme1.xmlPK\u0001\u0002-\u0000\u0014\u0000\u0006\u0000\b\u0000\u0000\u0000!\u0000t��D�\u0002\u0000\u0000\u0016\b\u0000\u0000\r\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000�\u0014\u0000\u0000xl/styles.xmlPK\u0001\u0002-\u0000\u0014\u0000\u0006\u0000\b\u0000\u0000\u0000!\u0000\u001b�wG�\u0002\u0000\u0000]\u0007\u0000\u0000\u0018\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000�\u0017\u0000\u0000xl/worksheets/sheet1.xmlPK\u0001\u0002-\u0000",
+        "\u0000\u0000\u0000\u0000\u0000\u0000\u0000!\u0000�\u000b\\�|R\u0000\u0000|R\u0000\u0000\u0017\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000b\u001a\u0000\u0000docProps/thumbnail.jpegPK\u0001\u0002-\u0000\u0014\u0000\u0006\u0000\b\u0000\u0000\u0000!\u0000�|�WM\u0001\u0000\u0000{\u0002\u0000\u0000\u0011\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0013m\u0000\u0000docProps/core.xmlPK\u0001\u0002-\u0000\u0014\u0000\u0006\u0000\b\u0000\u0000\u0000!\u0000}VF��\u0001\u0000\u0000\u001b\u0003\u0000\u0000\u0010\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000�o\u0000\u0000docProps/app.xmlPK\u0005\u0006\u0000\u0000\u0000\u0000\u000b\u0000\u000b\u0000�\u0002\u0000\u0000]r\u0000\u0000\u0000\u0000"
+      ]
+    },
+    {
+      "id": "exam6-1501671273510",
+      "name": "exam6",
+      "date": "2017-08-01T18:30:00.000Z",
+      "timelimit": "00:00:30",
+      "questions": [
+        {
+          "type": "MCQ",
+          "question": "The moment of inertia of a body does not depend upon it's ",
+          "options": [
+            {
+              "id": 1,
+              "value": "axis of rotation"
+            },
+            {
+              "id": 2,
+              "value": "angular velocity"
+            },
+            {
+              "id": 3,
+              "value": "form of mass"
+            },
+            {
+              "id": 4,
+              "value": "position of axis of rotation"
+            }
+          ],
+          "answer": 2,
+          "marks": 3,
+          "subject": "Science"
+        },
+        {
+          "type": "MCQ",
+          "question": "Which of the following are tennis players?",
+          "options": [
+            {
+              "id": 1,
+              "value": "Federer"
+            },
+            {
+              "id": 2,
+              "value": "Sachin"
+            },
+            {
+              "id": 3,
+              "value": "Ronaldo"
+            },
+            {
+              "id": 4,
+              "value": "Dhyanchand"
+            }
+          ],
+          "answer": 1,
+          "marks": 1,
+          "subject": "Sports"
+        },
+        {
+          "type": "MCQ",
+          "question": "What was the time period of Indus Civilization / Harappan Civilization ?",
+          "options": [
+            {
+              "id": 1,
+              "value": "2400 BC - 1700 BC"
+            },
+            {
+              "id": 2,
+              "value": " 2400 BC - 1750 BC"
+            },
+            {
+              "id": 3,
+              "value": " 2500 BC - 1700 BC"
+            },
+            {
+              "id": 4,
+              "value": " 2500 BC - 1750 BC"
+            }
+          ],
+          "answer": 4,
+          "marks": 4,
+          "subject": "History"
+        },
+        {
+          "type": "MCQ",
+          "question": "Who has won the 2016 Women’s Singles Wimbledon Championship?",
+          "options": [
+            {
+              "id": 1,
+              "value": "Halep"
+            },
+            {
+              "id": 2,
+              "value": " Williams"
+            },
+            {
+              "id": 3,
+              "value": " Kerber"
+            },
+            {
+              "id": 4,
+              "value": " Kvitova"
+            }
+          ],
+          "answer": 1,
+          "marks": 2,
+          "subject": "Sports"
+        },
+        {
+          "type": "MCQ",
+          "question": "Which of the following is not associated with the UNO?",
+          "options": [
+            {
+              "id": 1,
+              "value": "ASEAN"
+            },
+            {
+              "id": 2,
+              "value": "ILO"
+            },
+            {
+              "id": 3,
+              "value": "WHO"
+            },
+            {
+              "id": 4,
+              "value": "UNICEF"
+            }
+          ],
+          "answer": 1,
+          "marks": 3,
+          "subject": "GK"
+        }
+      ],
+      "creator": "kvats",
+      "examinees": [
+        "prmehrot",
+        "saksgupt"
+      ]
+    }
+  ],
+  "taken-assessments": [
+    {
+      "exam_id": "GK1-1501656607871",
+      "questions": [
+        {
+          "serial": 1,
+          "question": "Carl Lewis won how many gold medals at the 1984 Olympic games?",
+          "marks": 0
+        },
+        {
+          "serial": 2,
+          "question": "Genoa is leading seaport of:",
+          "marks": 0
+        },
+        {
+          "serial": 3,
+          "question": "Which of the following phenomenon is considered responsible for Global Warming?",
+          "marks": 0
+        },
+        {
+          "serial": 4,
+          "question": "Which of the following sites is famous for stupas, monasteries, temples and pillars ?",
+          "marks": 0
+        },
+        {
+          "serial": 5,
+          "question": "Which of these states are not in India?",
+          "marks": 0
+        },
+        {
+          "serial": 6,
+          "question": "he reason behind decrease in the boiling point of water at higher altitudes is",
+          "marks": 0
+        }
+      ],
+      "user_id": "saksgupt",
+      "id": 1
+    },
+    {
+      "exam_id": "exam6-1501671273510",
+      "questions": [
+        {
+          "serial": 1,
+          "question": "The moment of inertia of a body does not depend upon it's ",
+          "marks": 0
+        },
+        {
+          "serial": 2,
+          "question": "Which of the following are tennis players?",
+          "marks": 0
+        },
+        {
+          "serial": 3,
+          "question": "What was the time period of Indus Civilization / Harappan Civilization ?",
+          "marks": 0
+        },
+        {
+          "serial": 4,
+          "question": "Who has won the 2016 Women’s Singles Wimbledon Championship?",
+          "marks": 0
+        },
+        {
+          "serial": 5,
+          "question": "Which of the following is not associated with the UNO?",
+          "marks": 0
+        }
+      ],
+      "user_id": "saksgupt",
+      "id": 2
+    },
+    {
+      "exam_id": "GK1-1501656607871",
+      "questions": [
+        {
+          "serial": 1,
+          "question": "Carl Lewis won how many gold medals at the 1984 Olympic games?",
+          "marks": 0
+        },
+        {
+          "serial": 2,
+          "question": "Genoa is leading seaport of:",
+          "marks": 0
+        },
+        {
+          "serial": 3,
+          "question": "Which of the following phenomenon is considered responsible for Global Warming?",
+          "marks": 0
+        },
+        {
+          "serial": 4,
+          "question": "Which of the following sites is famous for stupas, monasteries, temples and pillars ?",
+          "marks": 0
+        },
+        {
+          "serial": 5,
+          "question": "Which of these states are not in India?",
+          "marks": 0
+        },
+        {
+          "serial": 6,
+          "question": "he reason behind decrease in the boiling point of water at higher altitudes is",
+          "marks": 0
+        }
+      ],
+      "user_id": "prmehrot",
+      "id": 3
+    }
+  ]
+}

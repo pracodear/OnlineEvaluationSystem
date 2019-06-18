@@ -1,0 +1,19 @@
+<div>
+	<div class="row">
+		<div class="col-md-2 col-lg-3">
+			Ques {{questions[index].serial}}
+		</div>
+		<div class="col-md-10 col-lg-9">
+			{{question}}({{marks}})
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-10 col-lg-9 pull-right">
+			<div ng-repeat="option in options">
+				<div class="radio">
+				  <label><input type="radio" name="quesRadio" value={{option.id}} ng-model="selectValue" ng-change="selectChange({val: option.id})">{{option.value}}</label>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

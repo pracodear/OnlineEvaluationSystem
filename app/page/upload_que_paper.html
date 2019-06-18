@@ -1,0 +1,18 @@
+<div ng-controller = "UploadQuestionSet">
+            <h3>Upload Question Paper</h3>
+            </p>
+           <form  name="upload_form">
+            Name of the Question Set: <input type="text" ng-model="qs_name">
+          
+            <input 
+               type="file" 
+               ngf-select 
+               ng-model="file" 
+               name="file" 
+               ngf-max-size="20MB" 
+               />
+            <div class="success_message">{{success_message}}</div>
+            <button type="submit" ng-click="addFile()">Submit</button>
+            <p>{{progress}}
+        </form>
+</div>

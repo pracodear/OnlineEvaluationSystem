@@ -1,0 +1,12 @@
+<div ng-controller = "ExaminationReportController">
+    <p>Select a test:</p>
+
+    <select ng-model="seltest" ng-options="x.name for x in schExams" ng-change="graph(seltest)"></select>
+
+    <p>Test Name: {{seltest.name}}</p>
+    <p>Date: {{getDate(seltest.date)}}</p>
+    <p>Time Limit: {{seltest.timelimit}}</p>
+    <canvas id="bar" class="chart chart-bar"
+	  chart-data="datasets" chart-labels="labels">
+	</canvas>
+</div>

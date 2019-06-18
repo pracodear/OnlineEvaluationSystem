@@ -1,0 +1,41 @@
+<div class="container" ng-controller = "CreateUserController">
+<form id="register-form" method="post" role="form">
+	<div class="form-group">
+		<input type="text" name="firstname" id="firstname" tabindex="1" class="form-control" placeholder="Firstname" value="" ng-model = "firstname">
+	</div>
+	<div class="form-group">
+		<input type="text" name="lastname" id="lastname" tabindex="1" class="form-control" placeholder="Lastname" value="" ng-model = "lastname">
+	</div>
+	<div class="form-group">
+		<input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Username" value="" ng-model = "username">
+	</div>
+	<div class="form-group">
+		<input type="email" name="email" id="email" tabindex="1" class="form-control" placeholder="Email Address" value="" ng-model = "email">
+	</div>
+	<div class="row">
+		<div class="col-lg-8 col-md-7" style="padding-left: 0px">
+			<div class="form-group">
+				<input type="password" name="password" id="password" placeholder="Password" ng-model = "password">
+			</div>
+		</div>
+		<div class="col-lg-4 col-md-5">
+			<div class="form-group">
+				<button type="button" name="generate_pwd" id="generate_pwd" tabindex="4" class="btn" ng-click = "generatePassword()" style="margin: 0px;"> Generate Password </button>
+			</div>
+		</div>
+	</div>
+	
+	<div class="form-group">
+		<input type="checkbox" name="make-admin" id="make-admin" tabindex="2" ng-model = "make_admin">
+		<label for="make-admin"> Make the user an admin</label>
+	</div>
+	<div class="error">{{error}}</div>
+	<div class="form-group">
+		<div class="row">
+			<div class="col-sm-6 col-sm-offset-3">
+				<input type="submit" name="register-submit" id="register-submit" tabindex="4" class="form-control btn btn-register" value="Submit" ng-click = "createUser()">
+			</div>
+		</div>
+	</div>
+</form>
+</div>

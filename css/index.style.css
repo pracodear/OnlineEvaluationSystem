@@ -1,0 +1,12 @@
+.project {
+    background-color: lightblue;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 36px;
+}
+
+.logged_in_user {
+	float: right;
+	font-size: 20px;
+}
